@@ -10,6 +10,11 @@ Website dành riêng cho PTNK Club Day. Có các page như:
 6. Login, Register (thư mục auth trong pages)
 7. Profile (thư mục Profile trong pages)
 
+## Cách cài đặt:
+
+- Clone Repository này về bằng lệnh git clone
+- Cài đặt các dependencies bằng lệnh npm install
+
 ## Cách sử dụng:
 
 - Edit các file index.js trong thư mục của các page để tạo page
