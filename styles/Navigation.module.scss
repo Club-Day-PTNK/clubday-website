@@ -1,0 +1,74 @@
+@use "./Palette.module.scss" as colors;
+
+.navbar {
+  margin: 0;
+  padding: 0.4em 1.2em;
+  background: white;
+
+  .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    align-items: center;
+
+    .logo {
+      color: black;
+      font-weight: bold;
+      font-size: 1.4em;
+      text-transform: uppercase;
+    }
+
+    .nav {
+      font-family: "Josefin Sans";
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        li {
+          a {
+            padding: 0 0.5em;
+            font-size: 1em;
+            &:hover {
+              font-weight: bold;
+            }
+          }
+        }
+
+        &.primaryNav {
+          margin: 0;
+          padding: 0;
+          li {
+            margin: 0 0.2em;
+          }
+        }
+
+        &.buttonList {
+          // background: blue;
+
+          a {
+            margin: 0 0.4em;
+            border-radius: 0.4em;
+            padding: 0.4em 2.4em;
+            border: 1px solid black;
+
+            &.registerCTA {
+              text-align: center;
+              background: black;
+              color: white;
+              font-weight: bold;
+              border: none;
+
+              &:hover {
+                background: colors.$primary-color;
+                color: black;
+              }
+            }
+          }
+          // background: blue;
+        }
+      }
+    }
+  }
+}
