@@ -1,5 +1,6 @@
 import Link from "next/link";
 import navStyles from "../styles/Navigation.module.scss";
+import Logo from "./Logo";
 
 const Navigation = ({}) => {
   // * Organizing the Navbar as the Following JSX
@@ -8,9 +9,7 @@ const Navigation = ({}) => {
   return (
     <div className={navStyles.navbar}>
       <div className={navStyles.container}>
-        <Link href="#">
-          <a className={navStyles.logo}>Club Day</a>
-        </Link>
+        <Logo />
         <nav className={navStyles.nav}>
           <ul className={navStyles.primaryNav}>
             <li>

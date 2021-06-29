@@ -1,0 +1,51 @@
+$radius: 30px;
+
+.footer {
+  .divisor {
+    height: 1px;
+    background: black;
+  }
+
+  .upper,
+  .lower {
+    padding: 1.4em 2.4em;
+  }
+
+  .upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .mobile {
+      font-family: "Sifonn Pro";
+    }
+  }
+
+  .lower {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 0.8em;
+
+    .socialMediaContainer {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      .socialMedias {
+        display: flex;
+        margin-left: 0.8em;
+        .socialMediaButtons {
+          width: $radius;
+          height: $radius;
+          border-radius: $radius;
+          background: rgb(185, 184, 184);
+          margin: 0 0.2em;
+          padding: 0 0.2em;
+        }
+      }
+    }
+  }
+}
