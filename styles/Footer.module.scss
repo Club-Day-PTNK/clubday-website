@@ -38,10 +38,7 @@ $radius: 30px;
         display: flex;
         margin-left: 0.8em;
         .socialMediaButtons {
-          width: $radius;
-          height: $radius;
-          border-radius: $radius;
-          background: rgb(185, 184, 184);
+          cursor: pointer;
           margin: 0 0.2em;
           padding: 0 0.2em;
         }

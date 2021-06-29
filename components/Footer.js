@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Logo from "./Logo";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 import footerStyles from "../styles/Footer.module.scss";
 
@@ -21,8 +23,14 @@ const Footer = ({}) => {
         <div className={footerStyles.socialMediaContainer}>
           <div>Theo dõi chúng tớ tại:</div>
           <div className={footerStyles.socialMedias}>
-            <div className={footerStyles.socialMediaButtons}></div>
-            <div className={footerStyles.socialMediaButtons}></div>
+            <a
+              href="https://www.facebook.com/clubdayptnk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={footerStyles.socialMediaButtons}
+            >
+              <FontAwesomeIcon icon={faFacebook} size="2x" />
+            </a>
           </div>
         </div>
       </div>
