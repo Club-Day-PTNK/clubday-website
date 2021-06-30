@@ -1,0 +1,59 @@
+@use "../Palette.module.scss" as colors;
+
+.cards {
+  background: white;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.7em;
+  min-height: 300px;
+  margin: 1em 0;
+  padding: 0 0.1em;
+  &.concurrent {
+    background: #c7c7c7;
+    color: white;
+  }
+
+  .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40%;
+    .title {
+      font-family: "Sifonn Pro";
+    }
+    .paragraphs {
+      max-width: 100%;
+    }
+  }
+  .components {
+    max-width: 20em;
+  }
+  .cta {
+    transition: color ease-in-out 200ms;
+    text-decoration: underline;
+  }
+  .cta:hover {
+    color: teal;
+  }
+
+  &.left {
+    flex-direction: row;
+  }
+  &.right {
+    flex-direction: row-reverse;
+    .texts {
+      text-align: right;
+    }
+  }
+  &.center {
+    flex-direction: column;
+    padding: 3rem;
+    .texts {
+      max-width: 80%;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+}
