@@ -1,0 +1,58 @@
+@use "./Palette.module.scss" as colors;
+.story {
+  background-color: #e5e5e5;
+  padding: 50px 0px 200px 0px;
+  width: 100%;
+  height: 100%;
+}
+.name,
+.description,
+.button,
+.buttonLeft,
+.buttonRight {
+  font-family: Josefin Sans;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  font-size: 35px;
+  width: auto;
+  padding: 0px 0px 40px 0px;
+}
+.name {
+  font-size: 130px;
+  font-family: "Sifonn Pro";
+  padding: 300px 0px 0px 0px;
+}
+.button {
+  li {
+    font-size: 35px;
+    width: 373px;
+    height: 76px;
+    border: 0.5px solid none;
+    border-radius: 50px;
+    padding: 30px 70px;
+    margin: 0px 50px;
+
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    &:hover {
+      background: colors.$primary-color;
+      color: black;
+      border: 0.5px solid colors.$primary-color;
+    }
+  }
+  .buttonLeft {
+    background-color: white;
+  }
+  .buttonRight {
+    color: white;
+    background-color: black;
+  }
+}
+
+.image {
+  align-items: center;
+}
