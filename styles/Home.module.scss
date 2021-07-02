@@ -2,12 +2,12 @@
 
 .container {
   min-height: 100vh;
+  width: 100%;
   padding: 0 0rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   .heroContainer {
-    background: colors.$wireframe-splash;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -15,6 +15,10 @@
     align-items: center;
     padding: 8em 0;
     font-family: "Sifonn Pro";
+    background: colors.$wireframe-splash-art; //blue;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center; /* optional, center the image */
     .title {
       display: flex;
       flex-direction: column;
