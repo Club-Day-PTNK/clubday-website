@@ -1,7 +1,9 @@
 import Image from "next/image";
 import { clubsIconsList } from "../../libs/home/clubs";
 import dummyRectangle from "../../public/assets/images/Rectangle.svg";
+
 import ClubsIcons from "../../components/home/Icons";
+import Testimonials from "../../components/home/Testimonials";
 
 export const bodyContents = {
   info: {
@@ -38,7 +40,7 @@ export const bodyContents = {
       ],
       link: { cta: "Lắng nghe câu chuyện khởi nguồn", dest: "/" },
     },
-    components: <Image src={dummyRectangle} alt="Club Day Picture" />,
+    components: <Testimonials />,
   },
   quizz: {
     orientation: "center",
