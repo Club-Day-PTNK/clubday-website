@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { clubsIconsList } from "../../libs/home/clubs";
-import dummyRectangle from "../../public/images/Rectangle.svg";
+import dummyRectangle from "../../public/assets/images/Rectangle.svg";
 import ClubsIcons from "../../components/home/Icons";
 
 export const bodyContents = {
