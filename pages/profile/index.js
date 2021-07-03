@@ -8,7 +8,7 @@ const index = () => {
     return (
       <div className={storystyles.story}>
         <Head>
-          <title>Story</title>
+          <title>Profile</title>
         </Head>
         <div className={storystyles.name}>INFINITY</div>
         <div className={storystyles.description}>
