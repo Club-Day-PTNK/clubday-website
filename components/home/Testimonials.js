@@ -1,25 +1,18 @@
-import Image from "next/image";
 import testimonialStyles from "../../styles/home/Testimonials.module.scss";
 
-const Testimonials = ({}) => {
+const Testimonials = ({ props }) => {
   return (
     <div className={testimonialStyles.container}>
-      <div className={testimonialStyles.wrapper}>
-        <Image
-          src="/assets/images/Ellipse.svg"
-          alt="Avatars"
-          width={500}
-          height={500}
-        ></Image>
-      </div>
+      <div className={testimonialStyles.wrapper}>{props.avatar}</div>
       <blockquote className={testimonialStyles.quote}>
-        “Club Day là trải nghiệm không thể tuyệt vời hơn!”
+        {props.quote}
       </blockquote>
       <div className={testimonialStyles.nameBlock}>
-        Chị <span className={testimonialStyles.name}>Lê Minh Tú</span>
+        {props.prefix}{" "}
+        <span className={testimonialStyles.name}>{props.name}</span>
       </div>
       <div className={testimonialStyles.position}>
-        Trưởng BTC Club Day 2018
+        {props.position}
       </div>
     </div>
   );
