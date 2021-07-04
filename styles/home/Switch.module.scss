@@ -1,0 +1,125 @@
+$label-colour: #bbb;
+$disabled-colour: #ddd;
+$toggle-colour: #2f855a;
+$white: #fff;
+$focus-color: #ff0;
+
+.toggleSwitch {
+  position: relative;
+  margin: 1em;
+  width: 18rem;
+  display: inline-block;
+  vertical-align: middle;
+  user-select: none;
+  .checkbox {
+    display: none;
+  }
+  .label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0 solid $label-colour;
+    border-radius: 4em;
+    margin: 0;
+    &:focus {
+      outline: none;
+      > span {
+        box-shadow: 0 0 2px 5px $focus-color;
+      }
+    }
+    > span:focus {
+      outline: none;
+    }
+  }
+  .inner {
+    display: flex;
+    justify-content: center;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.4s ease-in-out 0s;
+
+    &:before,
+    &:after {
+      display: block;
+      float: left;
+      width: 50%;
+      height: 80px;
+      padding: 0.4em;
+      line-height: 34px;
+      font-size: 14px;
+      color: white;
+      font-weight: bold;
+      box-sizing: border-box;
+      border-radius: 4em;
+    }
+    &:before {
+      content: attr(data-yes);
+      text-transform: uppercase;
+      padding-left: 0em;
+      background-color: $toggle-colour;
+      color: $white;
+    }
+    .switch {
+      width: 4em;
+      height: 4em;
+      margin-right: 0.4em;
+      background: $white;
+      position: absolute;
+      top: 5%;
+      right: 63%;
+      border: 0 solid $label-colour;
+      border-radius: 4em;
+      transition: all 0.3s ease-in-out 0.05s;
+    }
+  }
+  .disabled {
+    background-color: $disabled-colour;
+    cursor: not-allowed;
+    &:before {
+      background-color: $disabled-colour;
+      cursor: not-allowed;
+    }
+  }
+  .inner:after {
+    content: attr(data-no);
+    text-transform: uppercase;
+    padding-right: 0px;
+    background-color: $label-colour;
+    color: $white;
+    text-align: right;
+  }
+
+  .checkbox:checked + .label {
+    .inner {
+      margin-left: 0;
+    }
+    .switch {
+      right: -1%;
+    }
+  }
+  .small-switch {
+    width: 40px;
+    .inner {
+      &:after,
+      &:before {
+        content: "";
+        height: 20px;
+        line-height: 20px;
+      }
+    }
+    .switch {
+      width: 16px;
+      right: 20px;
+      margin: 2px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    transform: scale(0.9);
+  }
+  @media screen and (max-width: 767px) {
+    transform: scale(0.825);
+  }
+  @media screen and (max-width: 575px) {
+    transform: scale(0.75);
+  }
+}

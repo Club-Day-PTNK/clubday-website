@@ -3,9 +3,11 @@ import { clubsIconsList } from "../../libs/home/clubs";
 import dummyRectangle from "../../public/assets/images/Rectangle.svg";
 
 import ClubsIcons from "../../components/home/Icons";
-import Testimonials from "../../components/home/Testimonials";
+
 import TestimonialList from "../../components/home/TestimonialList";
 import { testimonials } from "./testimonials";
+
+import QuizzSwitch from "../../components/home/QuizzSwitch";
 
 export const bodyContents = {
   info: {
@@ -53,7 +55,7 @@ export const bodyContents = {
       ],
       link: { cta: "Chơi ngay", dest: "/" },
     },
-    components: <Image src={dummyRectangle} alt="Club Day Picture" />,
+    components: <QuizzSwitch />,
   },
   register: {
     orientation: "left",
