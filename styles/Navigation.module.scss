@@ -36,31 +36,6 @@
             margin: 0 0.2em;
           }
         }
-
-        &.buttonList {
-          // background: blue;
-
-          a {
-            margin: 0 0.4em;
-            border-radius: 0.4em;
-            padding: 0.4em 2.4em;
-            border: 1px solid black;
-
-            &.registerCTA {
-              text-align: center;
-              background: black;
-              color: white;
-              font-weight: bold;
-              border: none;
-
-              &:hover {
-                background: colors.$primary-color;
-                color: black;
-              }
-            }
-          }
-          // background: blue;
-        }
       }
     }
   }

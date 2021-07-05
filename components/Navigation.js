@@ -2,6 +2,8 @@ import Link from "next/link";
 import navStyles from "../styles/Navigation.module.scss";
 import Logo from "./Logo";
 
+import Button from "./Button";
+
 const Navigation = ({}) => {
   // * Organizing the Navbar as the Following JSX
   // * Using nested class in Sass but Ordinary Referencing in JSX
@@ -38,16 +40,21 @@ const Navigation = ({}) => {
               </Link>
             </li>
           </ul>
-          <ul className={navStyles.buttonList}>
-            <li className={navStyles.button}>
-              <Link href="#">
-                <a>Login</a>
-              </Link>
+          <ul>
+            <li>
+              <Button
+                type="link"
+                href="#"
+                content="Đăng nhập"
+              ></Button>
             </li>
-            <li className={navStyles.button}>
-              <Link href="#">
-                <a className={navStyles.registerCTA}>Register</a>
-              </Link>
+            <li>
+              <Button
+                type="link"
+                href="#"
+                content="Đăng ký"
+                important={true}
+              ></Button>
             </li>
           </ul>
         </nav>

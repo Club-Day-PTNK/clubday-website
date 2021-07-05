@@ -11,13 +11,13 @@ $focus-color: #ff0;
   display: inline-block;
   vertical-align: middle;
   user-select: none;
+  cursor: none;
   .checkbox {
     display: none;
   }
   .label {
     display: block;
     overflow: hidden;
-    cursor: pointer;
     border: 0 solid $label-colour;
     border-radius: 4em;
     margin: 0;
