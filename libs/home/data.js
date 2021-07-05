@@ -9,6 +9,8 @@ import { testimonials } from "./testimonials";
 
 import QuizzSwitch from "../../components/home/QuizzSwitch";
 
+import CallToAction from "../../components/home/CallToAction";
+
 export const bodyContents = {
   info: {
     orientation: "left",
@@ -63,8 +65,7 @@ export const bodyContents = {
       title:
         "Và còn nhiều điều thú vị khác đang chờ đón các bạn trong sự kiện sắp tới!  ",
       lines: [],
-      link: { cta: "Đăng ký ngay", dest: "/" },
     },
-    components: <Image src={dummyRectangle} alt="Club Day Picture" />,
+    components: <CallToAction></CallToAction>,
   },
 };
