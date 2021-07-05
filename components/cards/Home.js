@@ -3,6 +3,7 @@ import Link from "next/link";
 import cardStyles from "../../styles/cards/Home.module.scss";
 
 import classNames from "classnames/bind";
+import { text } from "@fortawesome/fontawesome-svg-core";
 let cx = classNames.bind(cardStyles);
 
 const BodyCard = (props) => {
@@ -20,9 +21,13 @@ const BodyCard = (props) => {
       <div className={cardStyles.texts}>
         <h3 className={cardStyles.title}>{texts.title}</h3>
         <div className={cardStyles.paragraphs}>{paragraphs}</div>
-        <Link href={texts.link.dest}>
-          <a className={cardStyles.cta}>{texts.link.cta}</a>
-        </Link>
+        {texts.link ? (
+          <Link href={texts.link.dest}>
+            <a className={cardStyles.cta}>{texts.link.cta}</a>
+          </Link>
+        ) : (
+          <></>
+        )}
       </div>
       <div className={cardStyles.components}>{components}</div>
     </div>

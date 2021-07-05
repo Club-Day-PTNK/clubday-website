@@ -1,7 +1,15 @@
 import Image from "next/image";
 import { clubsIconsList } from "../../libs/home/clubs";
 import dummyRectangle from "../../public/assets/images/Rectangle.svg";
+
 import ClubsIcons from "../../components/home/Icons";
+
+import TestimonialList from "../../components/home/TestimonialList";
+import { testimonials } from "./testimonials";
+
+import QuizzSwitch from "../../components/home/QuizzSwitch";
+
+import CallToAction from "../../components/home/CallToAction";
 
 export const bodyContents = {
   info: {
@@ -38,7 +46,7 @@ export const bodyContents = {
       ],
       link: { cta: "Lắng nghe câu chuyện khởi nguồn", dest: "/" },
     },
-    components: <Image src={dummyRectangle} alt="Club Day Picture" />,
+    components: <TestimonialList listOfTestimonials={testimonials} />,
   },
   quizz: {
     orientation: "center",
@@ -49,7 +57,7 @@ export const bodyContents = {
       ],
       link: { cta: "Chơi ngay", dest: "/" },
     },
-    components: <Image src={dummyRectangle} alt="Club Day Picture" />,
+    components: <QuizzSwitch />,
   },
   register: {
     orientation: "left",
@@ -57,8 +65,7 @@ export const bodyContents = {
       title:
         "Và còn nhiều điều thú vị khác đang chờ đón các bạn trong sự kiện sắp tới!  ",
       lines: [],
-      link: { cta: "Đăng ký ngay", dest: "/" },
     },
-    components: <Image src={dummyRectangle} alt="Club Day Picture" />,
+    components: <CallToAction></CallToAction>,
   },
 };

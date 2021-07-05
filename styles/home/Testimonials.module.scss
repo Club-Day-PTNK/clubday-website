@@ -1,0 +1,25 @@
+$avatar-size: 10em;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.4em;
+  text-align: center;
+  .wrapper {
+    width: $avatar-size;
+    height: $avatar-size;
+    margin-bottom: 0.6em;
+  }
+  .quote {
+    text-align: center;
+    max-width: 60%;
+  }
+  .name {
+    font-weight: 700;
+  }
+  .nameBlock {
+    margin-bottom: 0.3em;
+  }
+}

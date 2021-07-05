@@ -11,7 +11,7 @@ $base-color: black;
 
   .wrapper {
     position: relative;
-    margin-right: -2em;
+    margin-right: -15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,8 +19,8 @@ $base-color: black;
   @for $i from 1 through $number-of-items {
     .wrapper:nth-child(#{$i}) {
       z-index: min($i, $number-of-items - $i);
-      width: 6em + min($i - 1, $number-of-items - $i) * 1;
-      height: 6em + min($i - 1, $number-of-items - $i) * 1;
+      width: 6em + min($i - 1, $number-of-items - $i) * 2;
+      height: 6em + min($i - 1, $number-of-items - $i) * 2;
     }
   }
 }
