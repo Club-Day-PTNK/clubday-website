@@ -1,0 +1,80 @@
+@use "./Palette.module.scss" as colors;
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .heroContainer {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .backgroundImage {
+      z-index: 0;
+      div {
+        margin: 0 auto;
+      }
+    }
+    .heroTexts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      .title {
+        font-family: "Sifonn Pro";
+        text-transform: uppercase;
+        font-size: 5em;
+      }
+      .subtitle {
+        max-width: 60%;
+        text-align: center;
+        margin-top: 0em;
+        font-size: 1.4em;
+      }
+    }
+  }
+  .bodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: colors.$wireframe-splash;
+    padding: 3em 0em;
+    .search {
+      display: flex;
+      width: 40%;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 2em;
+      margin-bottom: 4em;
+      .searchBar,
+      .favourite {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1.5px solid black;
+        border-radius: 10em;
+        font-weight: 500;
+        background-color: white;
+      }
+      .searchBar {
+        flex-grow: 3;
+      }
+      .favourite {
+        flex-grow: 1;
+        padding: 0.5rem;
+        max-height: 4rem;
+        max-width: 4rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

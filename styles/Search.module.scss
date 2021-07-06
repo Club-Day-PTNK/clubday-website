@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 50%;
+  max-width: 80%;
+  .searchBar {
+    display: flex;
+    border: 1.5px solid black;
+    border-radius: 10em;
+    font-family: "Josefin Sans";
+    font-size: 1.4rem;
+    padding: 0.5rem 1em;
+    width: 100%;
+    &:focus {
+      outline: none;
+    }
+  }
+  .icon {
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+  }
+}
