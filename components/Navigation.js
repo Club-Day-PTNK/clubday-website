@@ -25,7 +25,7 @@ const Navigation = ({}) => {
               </Link>
             </li>
             <li>
-              <Link href="#">
+              <Link href="/clubs">
                 <a>Clubs</a>
               </Link>
             </li>
