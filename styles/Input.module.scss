@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  margin: .5em 0em;
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    .inputLabel {
+        margin: .3em 0em;
+    }
+    .input {
+      width: 100%;
+      border-radius: 4em;
+      padding: 0.5em;
+      border: none;
+      font-size: 1em;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
