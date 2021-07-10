@@ -1,0 +1,41 @@
+.container{
+    background-color: #9E9E9E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+    .card {
+        width: 80%; 
+        background-color: white;
+        margin-top: 2em;
+        border-radius: 1em;
+        padding: .5em 2em;
+        .quizzResult{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h2{
+                width: 20%;
+
+            }
+            .clubInfo{
+                width: 20%;
+            }
+            .imageWrapper{
+                position: relative;
+                width: 20%;
+                background-color: #9E9E9E;
+                display: flex;
+                justify-content: center;
+
+            }
+        }
+        .carousel{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+    }
+}
