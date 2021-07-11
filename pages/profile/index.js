@@ -1,25 +1,54 @@
-import Head from "next/Head";
+import Head from "next/head";
 import Image from "next/image";
 
-import storystyles from "../../styles/Story.module.scss";
+
+import profileStyles from "../../styles/Profile.module.scss";
+import Badge from "../../components/profile/Badge";
 import arrow from "../../assets/Arrow 1.svg";
 
 const index = () => {
-    return (
-      <div className={storystyles.story}>
-        <Head>
-          <title>Profile</title>
-        </Head>
-        <div className={storystyles.name}>INFINITY</div>
-        <div className={storystyles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing
+  return (
+    <div className={profileStyles.container}>
+      <Head>
+        <title>Profile</title>
+      </Head>
+      <div className={profileStyles.card}>
+        <h1>
+          Chào mừng, <span>P</span>
+        </h1>
+        <div className={profileStyles.quizzResult}>
+          <h2>Kết quả bài quizz của bạn:</h2>
+          <div className={profileStyles.imageWrapper}>
+            <Image src="/assets/images/Ellipse.svg" width={100} height={100}>
+
+            </Image>
+          </div>
+          <div className={profileStyles.clubInfo}>
+            <h3>Tên club:</h3>
+            <h3>Link:</h3>
+          </div>
         </div>
-        <ul className={storystyles.button}>
-          <li className={storystyles.buttonLeft}>Story</li>
-          <li className={storystyles.buttonRight}>Character Dev</li>
-        </ul>
-        <Image className={storystyles.image} src={arrow} alt="Scroll Down" />
       </div>
-    );
-  };
-  export default index;
+      <div className={profileStyles.card}>
+        <h2>Badges</h2>
+        <div className={profileStyles.carousel}>
+          <Badge/>
+          <Badge/>
+          <Badge/>
+          <Badge/>
+          <Badge/>
+        </div>
+      </div>
+      {/* <div>
+
+      </div> */}
+      <div className={profileStyles.card}>
+        <h2>Các câu lạc bộ quan tâm</h2>
+        <div>
+          <h3>Hình ảnh</h3>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default index;

@@ -1,17 +1,18 @@
 .container {
   min-width: 10rem;
-  min-height: 2em;
+  min-height: 2rem;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  margin: 0.2em 0.6em;
+  margin: 0.2em 0em;
   font-family: "Sifonn Pro";
   padding: 0.2em 1em;
   border: 1px solid black;
   text-align: center;
   border-radius: 4em;
   background-color: white;
-  font-size: 1rem;
+  font-size: 1em;
   &:active {
     background-color: darken(white, 40%);
   }

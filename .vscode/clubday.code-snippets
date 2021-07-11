@@ -18,7 +18,17 @@
   "Print to console": {
     "scope": "javascript,typescript",
     "prefix": "kfcbco2",
-    "body": ["console.log('KFCBCO $1');", "$2"],
+    "body": [
+      "const $1 = () => {",
+      "return (",
+      " <div>",
+
+      "</div>",
+      ")",
+      "}",
+
+      "export default $1"
+    ],
     "description": "Log output to console"
   }
 }

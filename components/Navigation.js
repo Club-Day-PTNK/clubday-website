@@ -40,7 +40,7 @@ const Navigation = ({}) => {
               </Link>
             </li>
           </ul>
-          <ul>
+          <ul className={navStyles.secondNav}>
             <li>
               <Button
                 type="link"

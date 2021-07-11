@@ -10,6 +10,7 @@ const Button = ({
   type,
   onClick = () => {},
   content,
+  icon="",
   href,
   important = false,
 }) => {
@@ -17,12 +18,12 @@ const Button = ({
   return type == "link" ? (
     <div className={buttonClass}>
       <Link href={href}>
-        <a className={buttonStyles.link}>{content}</a>
+        <a className={buttonStyles.link}>{icon}{content}</a>
       </Link>
     </div>
   ) : (
     <button className={buttonClass} onClick={onClick}>
-      {content}
+      {icon}{content}
     </button>
   );
 };
