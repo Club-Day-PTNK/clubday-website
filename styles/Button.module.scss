@@ -15,7 +15,9 @@
   &:active {
     background-color: darken(white, 40%);
   }
-
+  &:hover {
+    font-weight: bold;
+  }
   &.important {
     background-color: black;
     color: white;

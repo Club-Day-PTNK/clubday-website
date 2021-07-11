@@ -1,0 +1,23 @@
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 80%;
+  .imageContainer {
+    width: 100%;
+    position: relative;
+    div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
+  }
+  .first {
+    grid-column: 1 / span 2;
+    grid-row: 1/3;
+  }
+}
