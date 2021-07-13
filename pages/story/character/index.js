@@ -7,7 +7,9 @@ import Slide from "../../../components/character/Slide";
 const character = () => {
   return (
     <div>
-      <Head>Character</Head>
+      <Head>
+        <title>Character</title>
+      </Head>
       <div>
         <Slide />
       </div>

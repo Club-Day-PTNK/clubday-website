@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  padding: 10em 10em;
+  background-color: #c4c4c4;
+  align-items: center;
+  justify-content: center;
+  .gallery {
+    margin-right: 2.5em;
+  }
+  .text {
+    display: flex;
+    font-size: 1.5em;
+    max-width: 30%;
+  }
+}

@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0em 0em;
+  .textContainer {
+    padding: 0em 7em;
+    margin: 0em 0em 7em 0em;
+    .header {
+      font-family: Josefin Sans;
+      font-size: 1em;
+      .title {
+        font-size: 6em;
+        margin-bottom: -0.3em;
+      }
+      .text1 {
+        font-size: 1.5em;
+        margin-left: -0.2em;
+      }
+      .text2 {
+        margin: -0.5em 0em 0.5em -0.2em;
+
+        font-weight: 350;
+      }
+    }
+  }
+  .faceContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    padding: 0em 7em;
+    padding-bottom: 8em;
+  }
+  .bottomContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #c1c1c1;
+    padding: 3.4em 0em;
+    font-size: 1.8em;
+    .bottomText2 {
+      font-weight: 350;
+    }
+  }
+}

@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  max-width: 80%;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
   .imageContainer {
     width: 100%;
     position: relative;
@@ -10,9 +11,8 @@
       position: unset !important;
     }
     .image {
-      object-fit: contain;
+      object-fit: fill;
       width: 100% !important;
-      position: relative !important;
       height: unset !important;
     }
   }

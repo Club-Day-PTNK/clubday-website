@@ -1,0 +1,23 @@
+.faceContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 10em;
+  grid-row-gap: 10em;
+  max-width: 100%;
+  .image {
+    max-width: 90%;
+    .title {
+      font-family: Josefin Sans;
+      font-weight: 700;
+      font-size: 1.6em;
+      margin: 1em 0em 0.5em 0em;
+    }
+    .text {
+      font-family: Josefin Sans;
+      font-weight: 300;
+      line-height: 90%;
+      font-size: 1.2em;
+    }
+  }
+}

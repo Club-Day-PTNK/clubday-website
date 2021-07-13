@@ -9,44 +9,38 @@ const Gallery = () => {
       <div className={cx({ imageContainer: true, first: true })}>
         <Image
           src="/assets/images/Rectangle.svg"
-          size={300}
           layout="fill"
-          //   objectFit="contain"
           className={galleryStyles.image}
         ></Image>
       </div>
       <div className={galleryStyles.imageContainer}>
+        <Image src="/assets/images/Rectangle.svg" layout="fill"></Image>
+      </div>
+      <div className={galleryStyles.imageContainer}>
         <Image
           src="/assets/images/Rectangle.svg"
-          width={300}
+          width={600}
           height={600}
         ></Image>
       </div>
       <div className={galleryStyles.imageContainer}>
         <Image
           src="/assets/images/Rectangle.svg"
-          width={300}
+          width={600}
           height={600}
         ></Image>
       </div>
       <div className={galleryStyles.imageContainer}>
         <Image
           src="/assets/images/Rectangle.svg"
-          width={300}
+          width={600}
           height={600}
         ></Image>
       </div>
       <div className={galleryStyles.imageContainer}>
         <Image
           src="/assets/images/Rectangle.svg"
-          width={300}
-          height={600}
-        ></Image>
-      </div>
-      <div className={galleryStyles.imageContainer}>
-        <Image
-          src="/assets/images/Rectangle.svg"
-          width={300}
+          width={600}
           height={600}
         ></Image>
       </div>

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Button from "../../components/Button";
+import Button from "../../components/character/Button";
 import storyStyles from "../../styles/Story.module.scss";
 import arrow1 from "../../public/assets/images/Arrow 1.svg";
 import arrow2 from "../../public/assets/images/Arrow 3.svg";
