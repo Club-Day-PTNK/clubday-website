@@ -1,0 +1,23 @@
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  .imageContainer {
+    width: 100%;
+    position: relative;
+    div {
+      position: unset !important;
+    }
+    .image {
+      object-fit: fill;
+      width: 100% !important;
+      height: unset !important;
+    }
+  }
+  .first {
+    grid-column: 1 / span 2;
+    grid-row: 1/3;
+  }
+}
