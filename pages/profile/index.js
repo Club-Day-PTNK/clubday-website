@@ -50,7 +50,7 @@ const index = () => {
             <Interest/>
             <Interest/>
             <Interest/>
-            <Interest/>wertwert
+            <Interest/>
         </div>
       </div>
     </div>
