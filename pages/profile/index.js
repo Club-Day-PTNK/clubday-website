@@ -4,7 +4,8 @@ import Image from "next/image";
 
 import profileStyles from "../../styles/Profile.module.scss";
 import Badge from "../../components/profile/Badge";
-import arrow from "../../assets/Arrow 1.svg";
+import arrow from "../../public/assets/images/Arrow 1.svg";
+import Interest from "../../components/profile/Interest"
 
 const index = () => {
   return (
@@ -44,8 +45,12 @@ const index = () => {
       </div> */}
       <div className={profileStyles.card}>
         <h2>Các câu lạc bộ quan tâm</h2>
-        <div>
-          <h3>Hình ảnh</h3>
+        <div className={profileStyles.carousel}>
+            <Interest/>
+            <Interest/>
+            <Interest/>
+            <Interest/>
+            <Interest/>wertwert
         </div>
       </div>
     </div>
