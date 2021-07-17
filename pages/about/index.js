@@ -1,6 +1,7 @@
 import Year from "../../components/about/Year";
 import aboutStyles from "../../styles/About.module.scss";
 import Image from "next/image";
+import { yearsContents } from "../../libs/about/years";
 
 const About = () => {
   return (
@@ -35,10 +36,16 @@ const About = () => {
             risus justo, vitae. Eget nibh dolor malesuada risus scelerisque
             mauris purus pharetra.
           </p>
-          <Year>2018</Year>
-          <Year>2019</Year>
-          <Year>2020</Year>
-          <Year>2021</Year>
+          <div className={aboutStyles.yearContainer}>
+            {Object.keys(yearsContents).map((year) => (
+              <Year
+                year={year}
+                title={yearsContents[year].title}
+                subtitle={yearsContents[year].subtitle}
+                icon={yearsContents[year].icon}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
