@@ -1,0 +1,45 @@
+$radius: 5em;
+
+.container {
+    margin: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  .circle {
+      width: $radius;
+      height: $radius;
+      border-radius: 5em;
+      background-color: #8A8787;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Sifonn Pro";
+      font-size: 1.75em;
+      color: white;
+  }
+  .line {
+      width: $radius;
+      background-color: #8A8787;
+      height: 1.5px;
+  }
+  .yearContainer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    background-color: #C4C4C4;
+    border-radius: 2em;
+    padding: 0 1.5em;
+    .description {
+        width: 45em;
+        margin-right: 1.5em;
+      .title {
+          font-family: "Sifonn Pro";
+      }
+    }
+    .yearIcon {
+        position: relative;
+        width: 3*$radius;
+        height: 3*$radius;
+    }
+  }
+}
