@@ -1,27 +1,12 @@
 import Year from "../../components/about/Year";
 import aboutStyles from "../../styles/About.module.scss";
-import Image from "next/image";
 import { yearsContents } from "../../libs/about/years";
+import Hero from "../../components/about/Hero";
 
 const About = () => {
   return (
     <div className={aboutStyles.container}>
-      <div className={aboutStyles.hero}>
-        <div className={aboutStyles.imageWrapper}>
-          <Image
-            src="/assets/images/Rectangle.svg"
-            layout="fill"
-            alt="splash"
-            objectPosition="center"
-          />
-        </div>
-        <div className={aboutStyles.titleContainer}>
-          <h1 className={aboutStyles.title}>VỀ CHÚNG MÌNH</h1>
-          <h3>
-            Những câu chuyện về một đội ngũ Ban Tổ chức xịn xò nhất quả đất
-          </h3>
-        </div>
-      </div>
+      <Hero/>
       <div className={aboutStyles.body}>
         <div className={aboutStyles.aboutContainer}>
           <h2 className={aboutStyles.subtitle}>Lịch sử hình thành</h2>
