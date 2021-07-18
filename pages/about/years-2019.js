@@ -1,26 +1,26 @@
-import years2018Styles from "../../styles/about/Years-2018.module.scss";
+import years2019Styles from "../../styles/about/Years-2018.module.scss";
 import Hero from "../../components/about/Hero";
 import aboutStyles from "../../styles/About.module.scss";
 import Image from "next/image";
 import Member from "../../components/about/Member";
-import { memberContents } from "../../libs/about/members2018";
+import { memberContents } from "../../libs/about/members2019";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
-const year2018 = () => {
+const year2019 = () => {
   return (
-    <div className={years2018Styles.container}>
+    <div className={years2019Styles.container}>
       <div className={aboutStyles.container}>
         <Hero />
       </div>
-      <div className={years2018Styles.body}>
-        <div className={years2018Styles.yearsContainer}>
+      <div className={years2019Styles.body}>
+        <div className={years2019Styles.yearsContainer}>
           <FontAwesomeIcon
             icon={faTimes}
-            className={years2018Styles.icon}
+            className={years2019Styles.icon}
             onClick={() => {}}
           />
-          <div className={years2018Styles.imageWrapper}>
+          <div className={years2019Styles.imageWrapper}>
             <Image
               src="/assets/images/Ellipse.svg"
               alt="theme"
@@ -28,9 +28,9 @@ const year2018 = () => {
               objectPosition="center"
             />
           </div>
-          <h1 className={years2018Styles.title}>CLUB DAY 2018</h1>
-          <h3 className={years2018Styles.subtitle}>Bamboo</h3>
-          <p className={years2018Styles.para}>
+          <h1 className={years2019Styles.title}>CLUB DAY 2019</h1>
+          <h3 className={years2019Styles.subtitle}>Lava</h3>
+          <p className={years2019Styles.para}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit
             dignissim sapien urna consectetur amet, ipsum porttitor porta nibh.
             Amet dui at etiam convallis. Nunc congue sit egestas ac cursus nunc
@@ -41,7 +41,7 @@ const year2018 = () => {
             risus justo, vitae. Eget nibh dolor malesuada risus scelerisque
             mauris purus pharetra.
           </p>
-          <div className={years2018Styles.memberContainer}>
+          <div className={years2019Styles.memberContainer}>
             {Object.keys(memberContents).map((name) => (
               <Member
                 name={name}
@@ -56,4 +56,4 @@ const year2018 = () => {
   );
 };
 
-export default year2018;
+export default year2019;
