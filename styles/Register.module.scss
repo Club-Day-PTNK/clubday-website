@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c4c4;
+    padding: 4em 1em;
+    width: 27%;
+    .button {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 0.6em;
+    }
+    .inputContainer {
+      align-self: flex-start;
+      width: 100%;
+    }
+    .title {
+      font-family: "Sifonn Pro";
+      font-size: 1.4em;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-self: flex-start;
+      width: 100%;
+      margin-bottom: 0.5em;
+      .subtitle {
+        font-family: "Sifonn Pro";
+        font-size: 0.4em;
+        font-weight: lighter;
+        align-self: center;
+        margin: none;
+      }
+    }
+  }
+}

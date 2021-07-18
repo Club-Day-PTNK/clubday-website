@@ -1,23 +1,25 @@
 import Input from "../../components/Input";
 import Button from "../../components/Button";
+import registerStyles from "../../styles/Register.module.scss";
 const Register = () => {
   return (
-    <div>
-      <div>
-        <div>
-          <div>Cùng bắt đầu hành trình màu nhiệm nào!</div>
-          <br />
+    <div className={registerStyles.container}>
+      <div className={registerStyles.form}>
+        <div className={registerStyles.title}>
+          <span className={registerStyles.subtitle}>
+            Cùng bắt đầu hành trình màu nhiệm nào!
+          </span>
           <div>Tạo tài khoản của bạn</div>
         </div>
-        <div>
+        <div className={registerStyles.inputContainer}>
           <Input label="Họ và tên" name="name" />
-          <Input label="Lớp của bạn" name="class" />
           <Input label="Email" name="email" />
           <Input label="Tạo mật khẩu" name="password" />
         </div>
-      </div>
-      <div>
-        <Button type="button" content="Bắt đầu thôi!" important={true}/> 
+
+        <div className={registerStyles.button}>
+          <Button type="button" content="Bắt đầu thôi!" important={true} />
+        </div>
       </div>
     </div>
   );
