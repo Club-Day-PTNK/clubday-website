@@ -18,7 +18,7 @@
       .icon {
         align-self: flex-end;
         margin-top: -2em;
-        margin-right: -.5em;
+        margin-right: -0.5em;
       }
       .imageWrapper {
         position: relative;
@@ -41,13 +41,12 @@
         object-position: center;
       }
       .memberContainer {
-        display: flex; 
-        flex-wrap: wrap;
-        height: 50%;
+        width: 80%;
+        display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
       }
     }
-    }
   }
-
+}

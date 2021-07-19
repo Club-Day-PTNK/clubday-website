@@ -1,4 +1,4 @@
-import years2019Styles from "../../styles/about/Years-2018.module.scss";
+import years2019Styles from "../../styles/about/Years-2019.module.scss";
 import Hero from "../../components/about/Hero";
 import aboutStyles from "../../styles/About.module.scss";
 import Image from "next/image";
@@ -31,15 +31,16 @@ const year2019 = () => {
           <h1 className={years2019Styles.title}>CLUB DAY 2019</h1>
           <h3 className={years2019Styles.subtitle}>Lava</h3>
           <p className={years2019Styles.para}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit
-            dignissim sapien urna consectetur amet, ipsum porttitor porta nibh.
-            Amet dui at etiam convallis. Nunc congue sit egestas ac cursus nunc
-            ac euismod enim. Ut bibendum arcu, amet, donec malesuada odio
-            faucibus. At gravida diam vivamus amet. Sit aenean massa vel velit
-            velit adipiscing. Vitae, posuere cras nam duis nulla est. Vel
-            feugiat nisl amet et. Sed netus vel lorem cras nulla vestibulum
-            risus justo, vitae. Eget nibh dolor malesuada risus scelerisque
-            mauris purus pharetra.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Hendrerit dignissim sapien urna consectetur amet, ipsum
+            porttitor porta nibh. Amet dui at etiam convallis. Nunc
+            congue sit egestas ac cursus nunc ac euismod enim. Ut
+            bibendum arcu, amet, donec malesuada odio faucibus. At
+            gravida diam vivamus amet. Sit aenean massa vel velit
+            velit adipiscing. Vitae, posuere cras nam duis nulla est.
+            Vel feugiat nisl amet et. Sed netus vel lorem cras nulla
+            vestibulum risus justo, vitae. Eget nibh dolor malesuada
+            risus scelerisque mauris purus pharetra.
           </p>
           <div className={years2019Styles.memberContainer}>
             {Object.keys(memberContents).map((name) => (

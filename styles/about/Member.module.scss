@@ -1,17 +1,18 @@
 .container {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .imageWrapper {
-        position: relative;
-        margin: 3em;
-        margin-bottom: .5em;
-        width: 150px;
-        height: 150px;
-    }
-    .name {
-        margin-bottom: .5em; 
-    }
+  margin: 0.4em 0.5em;
+  padding: 0.5em 1.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .imageWrapper {
+    position: relative;
+    //margin: 2em;
+    margin-bottom: 0.5em;
+    width: 150px;
+    height: 150px;
+  }
+  .name {
+    margin-bottom: 0.5em;
+  }
 }

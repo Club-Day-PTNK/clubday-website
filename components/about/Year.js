@@ -2,7 +2,7 @@ import React from "react";
 import yearStyles from "../../styles/about/Year.module.scss";
 import Image from "next/image";
 
-const Year = ({ year,title,subtitle,icon }) => {
+const Year = ({ year, title, subtitle, icon }) => {
   return (
     <div className={yearStyles.container}>
       <div className={yearStyles.circle}>{year}</div>
@@ -10,13 +10,11 @@ const Year = ({ year,title,subtitle,icon }) => {
       <div className={yearStyles.yearContainer}>
         <div className={yearStyles.description}>
           <h3 className={yearStyles.title}>{title}</h3>
-          <p className={yearStyles.para}>
-            {subtitle}
-          </p>
+          <p className={yearStyles.para}>{subtitle}</p>
         </div>
         <div className={yearStyles.yearIcon}>
           <Image
-            src={icon} 
+            src={icon}
             alt="year icon"
             layout="fill"
             objectPosition="center"
