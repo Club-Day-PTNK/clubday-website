@@ -1,0 +1,62 @@
+$number-of-items:5;
+
+.container {
+    width: 100%;
+    .body {
+      background-color: #e5e5e5;
+      padding: 4em 4em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .yearsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #b0b0b0;
+        padding: 4em 3em;
+        border-radius: 1.5em;
+        width: 100%;
+        height: fit-content;
+        .icon {
+          align-self: flex-end;
+          margin-top: -2em;
+          margin-right: -0.5em;
+        }
+        .imageWrapper {
+          position: relative;
+          margin: 0;
+          width: 250px;
+          height: 250px;
+        }
+        .title {
+          font-family: "Sifonn Pro";
+          margin: 0;
+          padding-top: 2em;
+        }
+        .subtitle {
+          margin: 0;
+          padding-top: 2em;
+        }
+        .para {
+          width: 50%;
+          padding-top: 1em;
+          object-position: center;
+        }
+        .memberContainer {
+          width: 100%; 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 15rem;
+        }
+        @for $i from 1 through $number-of-items {
+          .memberContainer:nth-child(#{$i}) {
+            z-index: min($i, $number-of-items - $i + 1);
+            transform: translateX(10%);
+          }
+        }
+      }
+    }
+  }
+  
