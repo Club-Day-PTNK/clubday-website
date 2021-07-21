@@ -4,6 +4,11 @@ $number-of-items: 5;
   @for $i from 1 through $number-of-items {
     &:nth-child(#{$i}) {
       z-index: min($i, $number-of-items - $i + 1);
+      @if $i < 3 {
+        right: 53%+ (4 - $i - 2) * 10;
+      } @else if $i > 3 {
+        left: 53%+ ($i - 4) * 10;
+      }
     }
   }
 }
@@ -58,18 +63,31 @@ $number-of-items: 5;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         position: relative;
         overflow: hidden;
         margin-top: 1em;
         height: 30rem;
+
         .team {
           display: flex;
           justify-content: center;
           align-items: center;
-          min-width: 50rem;
           position: absolute;
+          margin-top: 1rem;
+          cursor: pointer;
           @include shift;
+        }
+        .teamBodyContainer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 6rem;
+          background-color: white;
+          width: 70%;
+          z-index: 99;
+          border-radius: 2rem;
+          padding: 2rem 2rem;
         }
       }
     }

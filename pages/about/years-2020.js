@@ -6,11 +6,40 @@ import { memberContents } from "../../libs/about/members2020";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import Team from "../../components/about/Team";
+import Member from "../../components/about/Member";
 
 import { useState } from "react";
 
+var Deque = require("collections/deque");
+
+const listOfTeams = [];
+Object.keys(memberContents).forEach((key) => {
+  let index = Object.keys(memberContents).indexOf(key);
+  listOfTeams.push({
+    id: index,
+    key: key,
+    content: memberContents[key],
+  });
+});
+let len = listOfTeams.length;
+let spanIndex = Math.floor(len / 2);
+let deque = new Deque(listOfTeams);
+while (deque.peekBack().id != 2) {
+  deque.unshift(deque.pop());
+}
+
 const year2020 = () => {
-  const [selected, setSelected] = useState(3);
+  const [selected, setSelected] = useState(0);
+
+  const tabClick = (id) => {
+    while (deque.peekBack().id != id) {
+      deque.unshift(deque.pop());
+    }
+    while (deque.peek().id != (id - spanIndex + 5) % 5) {
+      deque.push(deque.shift());
+    }
+    setSelected(id);
+  };
   return (
     <div className={years2020Styles.container}>
       <div className={aboutStyles.container}>
@@ -46,21 +75,36 @@ const year2020 = () => {
             risus scelerisque mauris purus pharetra.
           </p>
           <div className={years2020Styles.memberContainer}>
-            {Object.keys(memberContents).map((teamName) => (
+            {deque.toArray().map((element) => (
               <div
                 className={years2020Styles.team}
-                key={Object.keys(memberContents).indexOf(teamName)}
+                key={element.id}
+                onClick={(_) => {
+                  tabClick(element.id);
+                }}
               >
                 <Team
-                  teamName={teamName}
-                  teamMembers={memberContents[teamName]}
-                  selected={
-                    Object.keys(memberContents).indexOf(teamName) ==
-                    selected
-                  }
+                  teamName={element.key}
+                  selected={element.id == selected}
                 />
               </div>
             ))}
+            <div className={years2020Styles.teamBodyContainer}>
+              {Object.keys(deque.toArray()[selected].content).map(
+                (name) => (
+                  <Member
+                    name={name}
+                    classYear={
+                      deque.toArray()[selected].content[name]
+                        .classYear
+                    }
+                    avatar={
+                      deque.toArray()[selected].content[name].icon
+                    }
+                  />
+                )
+              )}
+            </div>
           </div>
         </div>
       </div>
