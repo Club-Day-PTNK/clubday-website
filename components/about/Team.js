@@ -3,7 +3,7 @@ import Member from "./Member";
 import classNames from "classnames/bind";
 let cx = classNames.bind(teamStyles);
 
-const Team = ({ teamName, teamMembers, selected = true }) => {
+const Team = ({ teamName, teamMembers, selected = false }) => {
   let containerClass = cx({ container: true, selected: selected });
   return (
     <div className={containerClass}>

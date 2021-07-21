@@ -2,13 +2,15 @@ import years2020Styles from "../../styles/about/Years-2020.module.scss";
 import Hero from "../../components/about/Hero";
 import aboutStyles from "../../styles/About.module.scss";
 import Image from "next/image";
-import Member from "../../components/about/Member";
 import { memberContents } from "../../libs/about/members2020";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import Team from "../../components/about/Team";
 
-const year2020= () => {
+import { useState } from "react";
+
+const year2020 = () => {
+  const [selected, setSelected] = useState(3);
   return (
     <div className={years2020Styles.container}>
       <div className={aboutStyles.container}>
@@ -44,12 +46,21 @@ const year2020= () => {
             risus scelerisque mauris purus pharetra.
           </p>
           <div className={years2020Styles.memberContainer}>
-           {Object.keys(memberContents).map((teamName) => (
-              <Team
-              teamName={teamName}
-              teamMembers={memberContents[teamName]}
-              />
-            ))}  
+            {Object.keys(memberContents).map((teamName) => (
+              <div
+                className={years2020Styles.team}
+                key={Object.keys(memberContents).indexOf(teamName)}
+              >
+                <Team
+                  teamName={teamName}
+                  teamMembers={memberContents[teamName]}
+                  selected={
+                    Object.keys(memberContents).indexOf(teamName) ==
+                    selected
+                  }
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>
