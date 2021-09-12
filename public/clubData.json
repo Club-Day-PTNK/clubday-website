@@ -60,7 +60,7 @@
         "socialMedia": ["https://www.facebook.com/ESC.HSG"],
         "spotlight": "Halloween, monthly debate, lễ đón thành viên mới",
         "upComing": "CLUB DAY 2021, các bài post giải trí trong mùa dịch (trang Facebook của ESC), tuyển thành viên mới (giữa tháng 7 - đầu tháng 8, theo hình thức online interview)",
-        "picture": ["./clubPics/ESC/1", "./clubPics/ESC/2","./clubPics/ESC/3","./clubPics/ESC/4","./clubPics/ESC/5"],
+        "picture": ["./clubPics/ESC/1", "./clubPics/ESC/2","./clubPics/ESC/3","./clubPics/ESC/4"    ],
         "hashtag": "#ESC #Shinebright #becauseyouCAN"
     },
     "Fzone":{
@@ -99,7 +99,7 @@
             "Năng Khiếu chơi nối chữ: https://www.facebook.com/421690948018128/posts/1478659605654585/?d=n"
         ],
         "upComing": ["CLUB DAY 2021", "Tuyển thành viên mới nhiệm kỳ 21-22"],
-        "picture": ["./clubPics/FZONE/Club Day 2019", "./clubPics/FZONE/Got Style 2020","./clubPics/FZONE/Karmic Laws ĐHSP"],
+        "picture": [],
         "hashtag": "#JUST"
     },
     "MTNK":{
@@ -123,7 +123,7 @@
             "Got Style 2020: https://fb.watch/v/25EcbsgwE/"
         ],
         "upComing": null,
-        "picture": ["./clubPics/MIB/1", "./clubPics/MIB/2","./clubPics/MIB/3","./clubPics/MIB/4","./clubPics/MIB/5"],
+        "picture": ["./clubPics/MIB/1", "./clubPics/MIB/2","./clubPics/MIB/3","./clubPics/MIB/4","./clubPics/MIB/5","./clubPics/MIB/6","./clubPics/MIB/7"],
         "hashtag": "#mib"
     },
     "NKX":{
@@ -136,12 +136,10 @@
         "slogan": null,
         "socialMedia": ["https://www.facebook.com/nangkhieuexpress"],
         "spotlight": [{
-            "Dự án Tập san Trường Không Chuyên": [
-                "Mô tả: Bạn có để ý rằng tất cả mọi thứ của Phổ Thông Năng Khiếu đều không liên quan đến chữ “chuyên”? Ta chỉ là Phổ Thông Năng Khiếu, khiêm tốn và giản dị. Phải chăng chúng ta là những người “không chuyên”? Bởi “chuyên” là gì, hình như từ điển của Năng Khiếu không có",
-                "https://drive.google.com/file/d/15bUyfX-qm-vnjBNJNRX98dz6LzPFS0H1/view?fbclid=IwAR2vFdkpOzCg-kujm9zPZR2sevN59X6VCV7Ebdg-C4O0ar6q8j29Y7WAYnc",
-                "Bài viết về  Quấy rối - nhiều hơn những gì bạn thấy: https://www.facebook.com/notes/1055991561518977/ và phản hồi của thầy phó hiệu trưởng:https://www.facebook.com/nangkhieuexpress/posts/953905151693757",
-                "Video “Năng Khiếu 5 sao check”: https://drive.google.com/file/d/1GD0nNPDzmceTBFu-GvBv2nnVSQoo3-tA/view?usp=sharing"
-            ]
+            "TapSan" :"Dự án Tập san Trường Không Chuyên: Mô tả: Bạn có để ý rằng tất cả mọi thứ của Phổ Thông Năng Khiếu đều không liên quan đến chữ “chuyên”? Ta chỉ là Phổ Thông Năng Khiếu, khiêm tốn và giản dị. Phải chăng chúng ta là những người “không chuyên”? Bởi “chuyên” là gì, hình như từ điển của Năng Khiếu không có: https://drive.google.com/file/d/15bUyfX-qm-vnjBNJNRX98dz6LzPFS0H1/view?fbclid=IwAR2vFdkpOzCg-kujm9zPZR2sevN59X6VCV7Ebdg-C4O0ar6q8j29Y7WAYnc" ,
+            "5sao": "Video “Năng Khiếu 5 sao check”: https://drive.google.com/file/d/1GD0nNPDzmceTBFu-GvBv2nnVSQoo3-tA/view?usp=sharing",
+            "sex": "Bài viết về  Quấy rối - nhiều hơn những gì bạn thấy: https://www.facebook.com/notes/1055991561518977/ và phản hồi của thầy phó hiệu trưởng:https://www.facebook.com/nangkhieuexpress/posts/953905151693757"
+            
         }],
         "upComing": null,
         "picture": ["./clubPics/NKX/Tập san", "./clubPics/NKX/Thành viên 2020"],
@@ -191,7 +189,13 @@
                 "Explain": "Chủ nhật ngày 06.10.2020, Oktoberfest, một trong các lễ hội lớn nhất tại xứ sở Đức, đã được tổ chức hết sức náo nhiệt và đầy tiếng cười tại trường Phổ thông Năng Khiếu",
                 "Flyer": "./clubPics/DEUTSCH/Oktoberfest Recap Flyer",
                 "Pic": ["./clubPics/DEUTSCH/hình Oktoberfest 1", "./clubPics/DEUTSCH/hình Oktoberfest 2", "./clubPics/DEUTSCH/hình Oktoberfest 3","./clubPics/DEUTSCH/hình Oktoberfest 4", "./clubPics/DEUTSCH/hình Oktoberfest 5"],
-                "Post": "https://www.facebook.com/100154601845694/posts/132615278599626/"
+                "Post": "Post recap: https://www.facebook.com/100154601845694/posts/132615278599626/"
+            },
+            "Martinstag":{
+                "Explain": " Với những chiếc đèn lồng rực rỡ và những trò chơi thú vị, lễ hội Martinstag đã được PDK thành công tái hiện lại ở bản làng Năng Khiếu.",
+                "Flyer": "./clubPics/DEUTSCH/MARTINSTAG",
+                "Pic": ["./clubPics/DEUTSCH/hình SM 1","./clubPics/DEUTSCH/hình SM 3","./clubPics/DEUTSCH/hình SM 4"],
+                "Post": "Vido Kịch \"Life of Martin \": https://drive.google.com/file/d/10l566wenD1lcy75i4zay2zreGwFFth_p/view?usp=sharing "
             },
             "Karneval":{
                 "Explain": "Hòa chung không khí với lễ hội Karneval truyền thống của nước Đức, vào thứ 7 ngày 20.3.2021, PDK đã cùng với các thầy cô và các bạn học sinh, tổ chức một ngày hội mà ở đó rộn ràng thật nhiều niềm vui",
@@ -204,7 +208,7 @@
         }],
         "upComing": ["Bật mí cho mọi người là PDK sắp mở đơn tuyển Gen2 cho nhiệm kỳ 2021-2022 đó! Seid bereit (stay tuned) và đừng quên chúng mình có hẹn tại Club Day 2021 nhé! Auf wiedersehen und viele Grüße."],
         "picture": [],
-        "hashtag": "#perfektionieren#dedizieren#kennenlernen [giao lưu]"
+        "hashtag": "#perfektionieren#dedizieren#kennenlernen"
     },
     "Harminica":{
         "logo": "",
@@ -328,7 +332,7 @@
             "Miss": ["Cuộc thi “Miss Năng Khiếu” 2022", "Tên sự kiện: “Miss Năng Khiếu 22”","Thời gian: Năm 2022","Hình thức: Online (trên fanpage Miss Năng Khiếu) và Offline","Nơi diễn ra: Trường Phổ thông Năng Khiếu cơ sở 1 ","Mô tả sự kiện: https://www.facebook.com/missnangkhieu"],
             "Yeu": ["Hoạt động “Mùa yêu” mùa 2 ","Tên sự kiện: Mùa yêu","Thời gian: Dịp Valentine năm 2022","Hình thức: Online (trên fanpage Tổ Phát Thanh trường Phổ Thông Năng Khiếu) và Offline","Nơi diễn ra: Trường Phổ thông Năng Khiếu cơ sở 1","Mô tả sự kiện ở mùa trước: https://bit.ly/muayeu1"]
         }],
-        "picture": [],
+        "picture": ["./clubPics/TPT/1","./clubPics/TPT/2","./clubPics/TPT/3","./clubPics/TPT/4","./clubPics/TPT/5","./clubPics/TPT/6","./clubPics/TPT/7","./clubPics/TPT/8","./clubPics/TPT/9","./clubPics/TPT/10"],
         "hashtag": "#TPT #ToPhatTinhYeu"
     }
     
