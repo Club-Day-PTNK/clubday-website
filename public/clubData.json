@@ -1,0 +1,339 @@
+{
+    "Atlanteans":{
+        "logo": "",
+        "description": null,
+        "slogan": "The more you sweat, the more you win",
+        "socialMedia": ["https://www.facebook.com/AtlanteansPTNK"],
+        "spotlight": [
+            "Giải Ba hội khỏe phù đổng Bóng rổ Cấp quận năm 2020", 
+            "Đội THPT duy nhất lọt vào vòng 1/8 của giải bóng rổ cấp độ Đại Học PNT Open Tournament 2020",
+            "Lọt vào tứ kết giả bóng rổ học đường cấp độ Thành Phố Cúp Nestle Milo 2020",
+            "Sở hữu 2 thành viên là VĐV tuyển trẻ U18 Hochiminh City Wings, 1 thành viên VĐV tuyển trẻ U18 Thành Phố Hồ Chí Minh"
+        ],
+        "upComing": [
+            "Tổ chức tryout cho CLB năm 2021-2022",
+            "Đào tạo đội tuyển và tham gia các giải đấu bóng rổ từ cấp độ Quận đến Thành Phố và Đại Học"
+        ],
+        "picture": [],
+        "hashtag": null
+    },
+    "ChessNK":{
+        "logo": "",
+        "description": "ChessNK là câu lạc bộ cờ vua của trường Phổ Thông Năng Khiếu, nơi dành cho các bạn yêu thích bộ môn cờ vua. ChessNK là một nơi để mọi người có thể cùng nhau phát triển những kỹ năng trên bàn cờ 64 ô cũng như đem bộ môn đến với nhiều bạn trẻ hơn thông qua các dự án trong tương lai. Chúng mình hướng tới sự tương trợ giữa các thành viên thông qua các buổi sinh hoạt để cùng nhau nâng cao trình độ của các kỳ thủ trường Phổ Thông Năng Khiếu",
+        "slogan": "Cộng đồng cờ vua lớn nhất Năng Khiếu",
+        "socialMedia": ["https://www.facebook.com/chessnk"],
+        "spotlight": "Vào ngày 08/05/2021, ChessNK đã tổ chức giải đấu ChessNK First Open Tournament dưới hình thức thi đấu online thông qua nền tảng Lichess.org với Top 3 bao gồm 2 bạn khoá 2023 và 1 bạn khoá 1821",
+        "upComing": "Sắp tới, ChessNK sẽ dự định tổ chức 1 giải đấu mang tính chất giao lưu vào khoảng thời gian sau kỳ thi THPT Quốc Gia năm 2021. Do tình hình đại dịch phức tạp, ChessNK sẽ tổ chức giải đấu theo hình thức online qua nền tảng Lichess.org.\nNgoài ra, sau khi vào năm học, ChessNK cũng sẽ tổ chức một giải đấu để chọn ra 5 kỳ thủ xuất sắc nhất trường để thi đấu giải cờ vua do Quận tổ chức. Vì tính chất chuyên môn của giải đấu, ChessNK sẽ tổ chức tại giải đấu tại trường Phổ Thông Năng Khiếu.\n Các cập nhật mới nhất về 2 sự kiện trên cũng như các sự kiện khác của câu lạc bộ trong tương lai sẽ liên tục được cập nhật trên fanpage của ChessNK.",
+        "picture": [],
+        "hashtag": "#chessnk #CNKmeme"
+    },
+    "DMC":{
+        "logo": "",
+        "description": "Được thành lập vào năm 2018, Define Magic Club là câu lạc bộ ảo thuật đầu tiên trong quy mô trường cấp ba Việt Nam. Thông qua những buổi workshops, các lớp dạy ảo thuật, những buổi biểu diễn trên các sân khấu lớn cùng các dự án truyền thông, Define Magic Club mong muốn truyền bá văn hoá ảo thuật đến gần hơn với các bạn học sinh, tạo ra một sân chơi bổ ích và chia sẻ những giá trị tốt đẹp của bộ môn này đến cho mọi người. Không đơn thuần là một bộ môn giải trí, với Define Magic Club, ảo thuật là thứ định nghĩa bạn.",
+        "slogan": "Define Magic Define You",
+        "socialMedia": ["https://www.facebook.com/DefineMagicClub"],
+        "spotlight": ["Lớp học ảo thuật: Magic Ride(2019), Magic Reborn(2021) - nơi các thành viên trong câu lạc bộ san sẻ kinh nghiệm của mình cho các bạn tham gia, giúp mọi người hiểu thêm về ảo thuật", "DMC x Sugar: các chuỗi sự kiện hợp tác với nhau như BST(hoạt động thiện nguyện cho trẻ em), ảo thuật tại đường sách Nguyễn Văn Bình, và đặc biệt là sự kiện Kết, khi mà DMC được trình làng tại một sân khấu lớn", "DMC Fun: chuỗi hoạt động vui chơi hằng năm của DMC. Vào những ngày này, mọi người sẽ cùng nhau đi chơi, ăn uống tưng bừng, đặc biệt chúng mình còn quẩy rất nhiệt tình tại Vũng Tàu."," Magic Fun Vlog: https://youtu.be/y8bnaqgqAb0,https://youtu.be/JuntFvQ3k8U","DMCxKET Performance: https://fb.watch/6wchl-jXRS/"
+        ],
+        "upComing": [
+            "[Tuyển thành viên Gen 4] - dự kiến tháng 9/2021 - Fanpage Define Magic Club",
+            "[PTNK Got Style]",
+            "[Lễ hội mừng xuân]",
+            "[Chuỗi lớp học ảo thuật] - dự kiến tháng 3 - 4/2022 - Phổ Thông Năng Khiếu"
+        ],
+        "picture": ["./clubPics/DMC/1", "./clubPics/DMC/2","./clubPics/DMC/3","./clubPics/DMC/4","./clubPics/DMC/5"],
+        "hashtag": "#magic #definemagic #defineyou #performance #workshop #event"
+    },
+    "ĐVN":{
+        "logo": "",
+        "description": "Đội Văn Nghệ Trường Phổ Thông Năng Khiếu trực thuộc trường Phổ Thông Năng Khiếu - Đại học Quốc Gia. Đội Văn Nghệ được thành lập với mục đích đem đến văn hóa thưởng thức cũng như lan tỏa niềm đam mê âm nhạc cho các bạn học sinh Phổ Thông Năng Khiếu nói riêng và các bạn trẻ khác nói chung. Được thành lập vào năm 2013, Đội Văn Nghệ trường Phổ Thông Năng Khiếu là một câu lạc bộ về âm nhạc được xây dựng bởi các học sinh có năng khiếu và đam mê với nghệ thuật; hoạt động như một tổ chức phi lợi nhuận, với mục tiêu tạo ra những cơ hội để khám phá và phát triển tài năng về âm nhạc cho các học sinh.",
+        "slogan": null,
+        "socialMedia": ["https://www.facebook.com/doivannghetruongptnk/","https://youtube.com/channel/UC_kFcm7bjlgl5gLV63Nz8MQ"],
+        "spotlight": ["Là đại diện của trường về lĩnh vực âm nhạc, Đội Văn Nghệ Phổ Thông Năng Khiếu đã có được một số thành tựu nhất định trong những năm qua. Trong đó có lời mời của thủ tướng Nguyễn Xuân Phúc đến biểu diễn ở lễ bổ nhiệm giám đốc Đại học Quốc Gia vào năm 2017.","Vào năm 2019 tổ chức thành công Show “ kem bơ “ đã thu hút được hơn 400 khán giả thông qua hai đêm diễn đã quyên góp được hơn 10 triệu đồng cho quỹ từ thiện Shoe for Sapa.","Dù dịch bệnh diễn biến phúc tạp, vào nửa cuối năm 2020, Đội đã tổ chức thành công “Show sắc”, thu hút hơn 150 khán giả và cháy vé sau 7 ngày mở bán, gây được 16 triệu đồng tiền quỹ ủng hộ quán cơm nụ cười 8 và lũ lụt miền trung.","Ngoài ra, trong nhiệm kì 2020 - 2021,  Đội cũng đã có một bước ngoặt rất lớn khi lần đầu bắt tay với đội hát và đội band trường THPT chuyên Lê Hồng Phong thực hiện dự án âm nhạc phi lợi nhuận “Hơi Mệch”. Trang Facebook của dự án: https://www.facebook.com/hoimech/"],
+        "upComing": ["Show Kem Bơ", "Show \"Sắc\"","CLUB DAY 2020","Cuộc thi tiếng hát dưới mái trường", "PTNK’s Got Style", "Dự án Hơi Mệch" ],
+        "picture": ["./clubPics/ĐVN/SHOWKEBO", "./clubPics/ĐVN/SHOWSAC","./clubPics/ĐVN/CLUBDAY2020","./clubPics/ĐVN/GOTSTYLE","./clubPics/ĐVN/THDMT"],
+        "hashtag": null
+    },
+    "ESC":{
+        "logo": "",
+        "description": "ESC- English Speaking Club là một câu lạc bộ lâu đời nhất ở Năng khiếu.Thành lập vào năm 2000, đến nay số lượng thành viên từng bước tăng lên, cùng với đó là những buổi meeting tràn ngập tiếng cười. Các buổi họp mặt trải dài nhiều lĩnh vực - từ vựng, ngữ pháp, debate và các sự kiện quốc tế (Halloween, New Year,…). Tiếng Anh không chỉ đóng vai trò trụ cột trong club. ESC luôn đề cao tinh thần đồng đội, sự thân thiện và dễ mến của các thành viên, tôn trọng nhau và cùng chia sẻ niềm vui nỗi buồn với nhau.",
+        "slogan": "Find your own voice!",
+        "socialMedia": ["https://www.facebook.com/ESC.HSG"],
+        "spotlight": "Halloween, monthly debate, lễ đón thành viên mới",
+        "upComing": "CLUB DAY 2021, các bài post giải trí trong mùa dịch (trang Facebook của ESC), tuyển thành viên mới (giữa tháng 7 - đầu tháng 8, theo hình thức online interview)",
+        "picture": ["./clubPics/ESC/1", "./clubPics/ESC/2","./clubPics/ESC/3","./clubPics/ESC/4"    ],
+        "hashtag": "#ESC #Shinebright #becauseyouCAN"
+    },
+    "Fzone":{
+        "logo": "",
+        "description": "F-Zone được chính thức thành lập vào năm 2015, là CLB nhảy đầu tiên của trường PTNK. Qua bao thế hệ thành viên, F-Zone ngày càng cải thiện hơn về mặt trình độ chuyên môn, từ đó cải thiện chất lượng các màn trình diễn của nhóm. Chữ “F” trong “F-Zone” nghĩa là “Family” (gia đình), thể hiện việc các thành viên trong câu lạc bộ cùng nhau gắn kết như một gia đình, bổ sung và sửa chữa cho nhau nhằm tạo ra một tiết mục mãn nhãn nhất.",
+        "slogan": null,
+        "socialMedia": ["https://www.facebook.com/fzonesalute/","https://www.facebook.com/fzonememes","http://www.instagram.com/fzonedafamily/"],
+        "spotlight": [
+            "Trình diễn cho các ngày hội của các trường (Karmic Laws, Đêm hội văn hóa trường ĐH KHTN,...).", "Trình diễn tại các ngày hội của trường (Lễ đón học sinh mới, Lễ hội mừng xuân,...).",
+            "Chuỗi hoạt động mừng sinh nhật cho từng thành viên của nhóm trên fanpage đời sống.",
+            "March Stage (Đêm hội văn hóa trường ĐH KHTN 2021): https://fb.watch/v/2M489xiVf/",
+            "Halloween Stage (Ngày hội Karmic Laws trường ĐHSP 2020): https://fb.watch/6xaccWFjop/",
+            "Tiết mục Fan-C (Lễ hội mừng xuân 2020): https://fb.watch/6x7zxQOqt-/",
+            "Tiết mục F-Calm (Lễ đón học sinh mới 2019): https://fb.watch/v/1mHm77Jmw/"
+        ],
+        "upComing": [{
+            "Project 4K": "Diễn ra vào khoảng năm học 2021-2022. Mừng fanpage đạt 4k like.",
+            "Workshop + Casting": "Diễn ra vào khoảng tháng 9-10 năm học 2021-2022. Địa điểm: căn tin cơ sở 1 trường PTNK. Mô tả sự kiện: Workshop: Các thành viên của nhóm sẽ giúp bạn tập một bài nhảy ngắn có độ dài trong khoảng từ 30 giây đến 1 phút để bạn có thể trải nghiệm được buổi tập thông thường của F-Zone như thế nào. Casting: Các bạn sẽ thể hiện khả năng nhảy của mình qua bài nhảy đã được tập ở buổi workshop, cũng như có thể chuẩn bị thêm một bài nhảy riêng tùy sở thích cá nhân."
+        }    
+        ],
+        "picture": ["./clubPics/FZONE/Club Day 2019", "./clubPics/FZONE/Got Style 2020","./clubPics/FZONE/Karmic Laws ĐHSP"],
+        "hashtag": "#fzone#ép_dẻo#cam#iizone#xiizone#ngô_gia#cmsn"
+    },
+    "Just":{
+        "logo": "",
+        "description": [
+            "Lịch sử hoạt động: JUST Media là một kênh thông tin giải trí về ngôi trường Phổ thông Năng Khiếu được thành lập vào năm 2015 bởi các học sinh của trường, và được duy trì qua các thế hệ học sinh tiếp theo. Cho đến nay, JUST MEDIA đã thành lập được 6 năm rồi đó!!",
+            "Lĩnh vực hoạt động: JUST MEDIA sản xuất những nội dung và hình ảnh liên quan đến Năng Khiếu, dành cho những người yêu Năng Khiếu giống tụi mình!!",
+            "Tôn chỉ hoạt động: Tất cả những gì của JUST MEDIA là về Năng Khiếu, của Năng Khiếu đó!"
+        ],
+        "slogan": null,
+        "socialMedia": ["https://m.facebook.com/JUstmedia.ptnk/"],
+        "spotlight": [
+            "Siêu từ điển Năng Khiếu: https://www.facebook.com/media/set/?set=a.1165363316984217&type=3",
+            "Lễ ra trường khóa 17-20: TÌM: https://fb.watch/6xpmcSmotC/",
+            "Năng Khiếu chơi nối chữ: https://www.facebook.com/421690948018128/posts/1478659605654585/?d=n"
+        ],
+        "upComing": ["CLUB DAY 2021", "Tuyển thành viên mới nhiệm kỳ 21-22"],
+        "picture": [],
+        "hashtag": "#JUST"
+    },
+    "MTNK":{
+        "logo": "",
+        "description": [],
+        "slogan": null,
+        "socialMedia": [""],
+        "spotlight": [],
+        "upComing": [],
+        "picture": [],
+        "hashtag": ""
+    },
+    "MIB":{
+        "logo": "",
+        "description": ["MIB bắt đầu hoạt động từ năm 2016, được nuôi dưỡng qua năm tháng bởi những con người đầy đam mê và nhiệt huyết. Có lẽ vì ngọn lửa không bao giờ cháy ấy, những thành viên của MIB luôn dành cho việc nhảy một sự yêu thích, đầu tư và lăn xả hết mình. Những giờ tập trên sân thượng đầy nắng gió, những buổi diễn trên các sân khấu tràn ngập ánh đèn sẽ là những trải nghiệm khó quên mà MIB có thể mang lại cho bạn. Chỉ cần một trái tim yêu nhảy, yêu đời và sẵn sàng cháy hết mình."],
+        "slogan": "MIB – COME FLY WITH US",
+        "socialMedia": ["https://www.facebook.com/mibcomeflywithus","https://www.youtube.com/channel/UCu44dqgOs0N6qXIw-aRys0A"],
+        "spotlight": [
+            "Got Style 2021: https://fb.watch/6xco_cve4I/",
+            "Đêm hội Văn Hóa của Đại học Khoa Học Tự Nhiên 2021: https://fb.watch/6xdDyyN3Ac/",
+            "Got Style 2020: https://fb.watch/v/25EcbsgwE/"
+        ],
+        "upComing": null,
+        "picture": ["./clubPics/MIB/1", "./clubPics/MIB/2","./clubPics/MIB/3","./clubPics/MIB/4","./clubPics/MIB/5","./clubPics/MIB/6","./clubPics/MIB/7"],
+        "hashtag": "#mib"
+    },
+    "NKX":{
+        "logo": "",
+        "description": [
+            "Tên CLB và ý nghĩa: Năng Khiếu Express - NKX: chữ “express” vừa có nghĩa là vận tải tin tức, vừa là tốc hành đó.",
+            "Quá trình thành lập:  Năng Khiếu Express đón sinh nhật đã được hai lần, từ dự định ban đầu của chị Tú (founder) là “cái gì đó cho Năng Khiếu”, cập nhật thông tin và nhặt những mẩu chuyện thường nhật. Có thể nói NKX đủ nhiều hoạt động để được công nhận là một câu lạc bộ ở Năng Khiếu, nhưng chúng mình cũng đủ phóng khoáng và tự do để đơn giản trở thành một “hội nhóm” thích tổng hợp những lí thú ở trong và xung quanh Năng Khiếu.",
+            "Phương châm của NKX vẫn luôn là, “chính xác - kịp thời - bổ X”"
+        ],
+        "slogan": null,
+        "socialMedia": ["https://www.facebook.com/nangkhieuexpress"],
+        "spotlight": [{
+            "TapSan" :"Dự án Tập san Trường Không Chuyên: Mô tả: Bạn có để ý rằng tất cả mọi thứ của Phổ Thông Năng Khiếu đều không liên quan đến chữ “chuyên”? Ta chỉ là Phổ Thông Năng Khiếu, khiêm tốn và giản dị. Phải chăng chúng ta là những người “không chuyên”? Bởi “chuyên” là gì, hình như từ điển của Năng Khiếu không có: https://drive.google.com/file/d/15bUyfX-qm-vnjBNJNRX98dz6LzPFS0H1/view?fbclid=IwAR2vFdkpOzCg-kujm9zPZR2sevN59X6VCV7Ebdg-C4O0ar6q8j29Y7WAYnc" ,
+            "5sao": "Video “Năng Khiếu 5 sao check”: https://drive.google.com/file/d/1GD0nNPDzmceTBFu-GvBv2nnVSQoo3-tA/view?usp=sharing",
+            "sex": "Bài viết về  Quấy rối - nhiều hơn những gì bạn thấy: https://www.facebook.com/notes/1055991561518977/ và phản hồi của thầy phó hiệu trưởng:https://www.facebook.com/nangkhieuexpress/posts/953905151693757"
+            
+        }],
+        "upComing": null,
+        "picture": ["./clubPics/NKX/Tập san", "./clubPics/NKX/Thành viên 2020"],
+        "hashtag": ""
+    },
+    "Nguồn":{
+        "logo": "",
+        "description": [
+            "“NGUỒN” là dự án bảo tồn văn hóa Việt Nam do học sinh khối Anh của trường Phổ thông Năng Khiếu lần đầu tiên tổ chức. Mỗi năm, chủ đề chung của NGUỒN sẽ có sự thay đổi xoay quanh các loại hình nghệ thuật Việt Nam.",
+            "Năm nay, với chủ đề là Múa rối nước, NGUỒN sẽ đem lại một cái nhìn mới về những nét đẹp trong các buổi biểu diễn múa rối nước qua các cuộc gặp gỡ với chuyên gia, nghệ nhân biểu diễn và tổ chức sự kiện bảo tồn văn hóa Việt Nam."
+        ],
+        "slogan": "Con người có tổ có tông - Như cây có cội như sông có NGUỒN",
+        "socialMedia": ["https://www.facebook.com/nguonproject2021","https://www.instagram.com/nguon.project/"],
+        "spotlight": null,
+        "upComing": [{
+            "Workshop":[
+                "Thời gian (dự kiến): Tháng 1/2022",
+                "Nơi diễn ra: pending",
+                "Mô tả sự kiện: Buổi giao lưu kết nối học sinh, sinh viên với chuyên gia, nghệ nhân về múa rối nước. Qua các hoạt động đậm tính văn hóa dân tộc như tô tượng, kéo co, thiết kế rối, tập kịch… workshop mong muốn để lại một trải nghiệm đáng nhớ và bắt nguồn niềm yêu văn hóa trong bạn trẻ"
+            ],
+            "Show diễn múa rối nước":[
+                "Thời gian: Tháng 6/2022",
+                "Nơi diễn ra: pending",
+                "Mô tả sự kiện: Đêm hội tổng kết chủ đề năm đầu với những buổi diễn live show rối nước do nghệ nhân tổ chức nhằm sử dụng tiền gây quỹ giúp đỡ các làng nghề."
+            ]
+        }],
+        "picture": null,
+        "hashtag": "#nguonproject#coinguon"
+    },
+    "Paradice":{
+        "logo": "",
+        "description": ["Được khai sinh từ ý tưởng Paradise - Thiên đường, Paradice là một cộng đồng những người yêu thích hay đơn giản là có thể thoải mái chơi boardgame. Mục đích hiện tại của Paradice hướng đến là sự giải trí đơn thuần và lành mạnh nhất. Liệu bạn có đủ liều lĩnh để biến phép màu trong lòng bàn tay thành hiện thực, để đánh cược vận may của mình một lần vào ván bài đó ở Paradice?"],
+        "slogan": null,
+        "socialMedia": ["https://www.facebook.com/paradice.boardgameclub"],
+        "spotlight": ["Para de Tour (2018)", "Halloween Event (2018)","Para de Tour: Pick Party (2019)"],
+        "upComing": ["O-day (2021)", "Para de Tour (2021)"],
+        "picture": ["./clubPics/PARADICE/1", "./clubPics/PARADICE/2", "./clubPics/PARADICE/3", "./clubPics/PARADICE/4", "./clubPics/PARADICE/5", "./clubPics/PARADICE/6", "./clubPics/PARADICE/7"],
+        "hashtag": null
+    },
+    "Deutsch":{
+        "logo": "",
+        "description": ["PTNK Deutschklub (PDK) là một “chiếc Klub” ra đời vào năm 2020 bởi tâm huyết của một nhóm bạn bè lớp Đức 1922. Nhận được sự chấp thuận từ thầy hiệu phó Trần Nam Dũng cùng sự hỗ trợ của cô Trần Hồng Lụa (Giáo viên bộ môn tiếng Đức PTNK) và Goethe-Institut, nhiệm vụ của chúng mình là lan tỏa niềm đam mê về văn hóa cũng như ngôn ngữ Đức đến các PTNKers và các bạn học sinh toàn thành phố. "],
+        "slogan": "Vào PDK để Phiêu - Dui - Kười",
+        "socialMedia": ["https://www.facebook.com/ptnkdeutschklub"],
+        "spotlight": [{
+            "Oktoberfest": {
+                "Explain": "Chủ nhật ngày 06.10.2020, Oktoberfest, một trong các lễ hội lớn nhất tại xứ sở Đức, đã được tổ chức hết sức náo nhiệt và đầy tiếng cười tại trường Phổ thông Năng Khiếu",
+                "Flyer": "./clubPics/DEUTSCH/Oktoberfest Recap Flyer",
+                "Pic": ["./clubPics/DEUTSCH/hình Oktoberfest 1", "./clubPics/DEUTSCH/hình Oktoberfest 2", "./clubPics/DEUTSCH/hình Oktoberfest 3","./clubPics/DEUTSCH/hình Oktoberfest 4", "./clubPics/DEUTSCH/hình Oktoberfest 5"],
+                "Post": "Post recap: https://www.facebook.com/100154601845694/posts/132615278599626/"
+            },
+            "Martinstag":{
+                "Explain": " Với những chiếc đèn lồng rực rỡ và những trò chơi thú vị, lễ hội Martinstag đã được PDK thành công tái hiện lại ở bản làng Năng Khiếu.",
+                "Flyer": "./clubPics/DEUTSCH/MARTINSTAG",
+                "Pic": ["./clubPics/DEUTSCH/hình SM 1","./clubPics/DEUTSCH/hình SM 3","./clubPics/DEUTSCH/hình SM 4"],
+                "Post": "Vido Kịch \"Life of Martin \": https://drive.google.com/file/d/10l566wenD1lcy75i4zay2zreGwFFth_p/view?usp=sharing "
+            },
+            "Karneval":{
+                "Explain": "Hòa chung không khí với lễ hội Karneval truyền thống của nước Đức, vào thứ 7 ngày 20.3.2021, PDK đã cùng với các thầy cô và các bạn học sinh, tổ chức một ngày hội mà ở đó rộn ràng thật nhiều niềm vui",
+                "Flyer": "./clubPics/DEUTSCH/WER HAT DIE SCHÖNSTE MASKE ZUM KARNEVAL",
+                "Flyer Karneval": "./clubPics/DEUTSCH/poster karneval",
+                "Pic": ["./clubPics/DEUTSCH/hình Karneval 2", "./clubPics/DEUTSCH/hình Karneval 3", "./clubPics/DEUTSCH/hình Karneval 4","./clubPics/DEUTSCH/hình Karneval 6","./clubPics/DEUTSCH/hình Karneval 7","./clubPics/DEUTSCH/hình Karneval 9","./clubPics/DEUTSCH/hình Karneval 10"],
+                "Post": ["https://www.facebook.com/100154601845694/posts/223643536163466/","https://www.facebook.com/100154601845694/posts/232078185320001/"]
+
+            }
+        }],
+        "upComing": ["Bật mí cho mọi người là PDK sắp mở đơn tuyển Gen2 cho nhiệm kỳ 2021-2022 đó! Seid bereit (stay tuned) và đừng quên chúng mình có hẹn tại Club Day 2021 nhé! Auf wiedersehen und viele Grüße."],
+        "picture": [],
+        "hashtag": "#perfektionieren#dedizieren#kennenlernen"
+    },
+    "Harminica":{
+        "logo": "",
+        "description": "PTNK Harmonica Club hay HarpClub PTNK là một câu lạc bộ hoạt động với mục đích tạo môi trường vui chơi, học hỏi giữa các bạn chơi harmonica. Được thành lập vào năm 2007 với hình thức chỉ là một nhóm nhỏ cùng chơi kèn với nhau, HarpClub giờ đây là một câu lạc bộ với nhiệm vụ chính là truyền cảm hứng, đam mê cho các bạn có hứng thú khám phá sự thú vị của kèn harmonica tại PTNK. CLB hoạt động về âm nhạc nhạc cụ, chủ yếu là Harmonica, bên cạnh đó là một số nhạc cụ như Guitar, Piano, Violin, phối khí,...",
+        "slogan": null,
+        "socialMedia": ["https://www.facebook.com/PtnkHarmonica","https://www.youtube.com/channel/UC5RtcVfr3XIyIcpLTi5Pxiw"],
+        "spotlight": [{
+            "Lễ ra trường 2021": "https://www.facebook.com/PtnkHarmonica/videos/237580881035303",
+            "PTNK’s Got style 2021": "https://www.facebook.com/PtnkHarmonica/videos/812838292634389",
+            "PTNK’s Got style 2020": "https://www.facebook.com/watch/?v=171201024184457",
+            "Tiếng hát dưới mái trường 2020": "https://www.facebook.com/339314506156138/videos/1164448890419082",
+            "Mơ":"https://www.facebook.com/339314506156138/videos/403395290502182"
+        }],
+        "upComing": null,
+        "picture": null,
+        "hashtag": "#Harmonia#Music#Instrument#Guitar#Piano#NhạcKịch"
+    },
+    "PPC":{
+        "logo": "",
+        "description": [{
+            "Lịch sử hoạt động": "PTNK Photography Club (thường hay được gọi tắt với cái tên PPC) ra đời vào năm 2016 với 3 founders. PPC đã đi vào hoạt động được 5 năm, fanpage đạt hơn 5000 likes và có được một nền tảng vững chắc nhờ các thế hệ học sinh Phổ Thông Năng Khiếu gây dựng nên. Đúng như tên gọi của mình, PTNK Photography Club chú trọng hoạt động vào lĩnh vực nhiếp ảnh. Ngoài nhiếp ảnh thuần tuý, PPC cũng chú trọng xây dựng ban model và videography trong năm học sắp tới.",
+            "Tôn chỉ hoạt động": "Truyền lửa và xây dựng đam mê"
+        }],
+        "slogan": null,
+        "socialMedia": ["https://www.facebook.com/ptnkphotographyclub"],
+        "spotlight": ["Hợp tác chụp ảnh quảng bá cùng The Cambio Project, Gấu Uniform,...","Phụ trách hình ảnh các hoạt động của trường Phổ Thông Năng Khiếu","Các bộ ảnh recast hàng năm được các thành viên nòng cốt của PPC đầu tư","Challenge Angles(Thông tin chi tiết trên fanpage)"],
+        "upComing": null,
+        "picture": ["./clubPics/PPC/Club Day 2020","./clubPics/PPC/Event Kết","./clubPics/PPC/Gấu uniform","./clubPics/PPC/Got Style","./clubPics/PPC/Kỉ niệm ngày nhà giáo Việt Nam (cs2)","./clubPics/PPC/Thành viên 20-21(1)","./clubPics/PPC/Thành viên 20-21"],
+        "hashtag": "#ppc#photography#model#videography#design"
+    },
+    "NKSC":{
+        "logo": "",
+        "description": [{
+            "Lịch sử hoạt động":"PTNK STEAM Club (gọi tắt là NKSC) được thành lập vào tháng 5/2019 từ sự gợi ý của thầy Trần Nam Dũng và sự tham gia của một nhóm các bạn học sinh và cựu học sinh của Phổ thông Năng khiếu. Trong năm đầu hoạt động, NKSC đã thu hút hơn 70 bạn học sinh tham gia, tổ chức và tham gia khoảng 20 hoạt động, vận hành 5 nhóm nghiên cứu khoa học và phát triển các sản phẩm kỹ thuật.",
+            "Lĩnh vực hoạt động": "tổ chức sự kiện, nghiên cứu khoa học và công nghệ, phát triển dự án, kết nối cựu học sinh",
+            "Tôn chỉ hoạt động": ["Work on problems: hướng tới việc giải quyết các vấn đề cụ thể bằng tu duy thiết kế (design thinking)","Innovate everything: đổi mới các nội dung, hoạt động, dự án và phương pháp quản lý để hướng tới việc đổi mới cách phổ biến văn hoá sáng chế đến với học sinh","Make changes, make differences, make chances: tạo ra những thay đổi, những khác biệt và những cơ hội mới","Pass it forward: tinh thần và các thành quả của thế hệ trước sẽ được truyền lại cho thế hệ sau"]
+        }],
+        "slogan": null,
+        "socialMedia": ["https://www.facebook.com/ptnksteam"],
+        "spotlight": [{
+            "1": ["./clubPics/NSKC/1","Chuyến đi thực tế đào tinh thể thạch anh và tìm hiểu về địa chất tại mỏ đá núi Thị Vải (Vũng Tàu) (tháng 7, 2019)"],
+            "2": ["./clubPics/NSKC/2","Học sinh trải nghiệm về kính hiển vi foldscope tại Ngày hội Sáng tạo khoa học Phổ thông Năng khiếu (tháng 10, 2019)"],
+            "3": ["./clubPics/NSKC/3","Học sinh trình bày về dự án mạch điện tương tác tại Ngày hội Sáng tạo khoa học Phổ thông Năng khiếu (tháng 10, 2019)"],
+            "4": ["./clubPics/NSKC/4","Học sinh trình bày tại Ngày hội Trải nghiệm Khoa học Sáng tạo ở trường Đại học Sư Phạm TPHCM (tháng 11, 2019)"],
+            "5": ["./clubPics/NSKC/5","Poster Diễn đàn khoa học STEAM Forum số đầu tiên (tháng 1, 2020). Đây là hoạt động diễn ra hằng tháng nhằm mở ra cơ hội cho các bạn học sinh của trường chia sẻ về các dự án, các chủ đề khoa học cũng như có cơ hội được tiếp xúc với các chuyên gia trong ngành."],
+            "6": ["./clubPics/NSKC/6","Bạn Phan Nguyễn Tuấn Kiệt (lớp 12 Tin) trình bày sơ lược về trí tuệ nhân tạo và máy học tại Diễn đàn khoa học STEAM Forum."],
+            "7": ["./clubPics/NSKC/7","Poster Diễn đàn khoa học STEAM Forum  số Đặc biệt. Đây là sự kiện chuỗi bài giảng online quy tụ 17 chuyên gia trong các lĩnh vực khoa học, công nghệ là cựu học sinh của trường, hiện đang học tập và làm việc ở nước ngoài, diễn ra trong mùa dịch. Ngoài ra chương trình còn tổ chức các chuyến tham quan tại các tổ chức về giáo dục là Đại học Fulbright, Fablab Saigon và EdSpace để tìm hiểu thêm về các kỹ năng nghiên cứu khoa học. Sự kiện diễn ra từ tháng 7 đến tháng 9 năm 2020."],
+            "8": ["./clubPics/NSKC/8","Poster diễn đàn Khoa học STEAM Forum số 1 (ngày 23/1/2020)"],
+            "9": ["./clubPics/NSKC/9","Poster Cuộc đua sáng chế Makathon. Đây là cuộc thi về thiết kế và chế tạo các giải pháp công nghệ dựa trên những khảo sát thực tế. 14 đội thi bao gồm 70 thí sinh là học sinh của trường được tham gia hành trình kéo dài 2 tuần lễ bao gồm các lớp học về Tư duy thiết kế và làm việc nhóm, chuyến đi thực tế tại 3 địa điểm (Thảo cầm viên, Bảo tàng TpHCM và Đại học Khoa học tự nhiên), bảo vệ ý tưởng, thiết kế giải pháp và trình bày sản phẩm."],
+            "10": ["./clubPics/NSKC/10","Các đội thi thực hiện thử thách khảo sát khách tham quan tại Thảo cầm viên với bảng câu hỏi về Tư duy thiết kế để tìm hiểu về nhu cầu cũng như những mong muốn của du khách để cải thiện quá trình tham quan Thảo cầm viên."],
+            "11": ["./clubPics/NSKC/11", "Buổi lễ tổng kết của chương trình Cuộc đua Sáng chế diễn ra tại SiHub (273 Điện Biên Phủ, quận 3) với sự tham gia của Anh Hồ Minh Nhật - Cán bộ Sở Khoa học và Công nghệ Tp.HCM, Chị Nguyễn Trần Diệu My - R&D Grants Manager, Tổ chức Khoa học và Chuyên gia Việt Nam toàn cầu (AVSE Global), Anh Trương Võ Hữu Thiên - CEO Công ty cổ phần công nghệ giáo dục GaraSTEM, Cô Trịnh Thu Thủy - giáo viên Vật lý trường Phổ thông Năng khiếu và Đại diện Bảo tàng Tp.HCM cùng với 14 đội thi và phụ huynh của các bạn."],
+            "12": ["./clubPics/NSKC/12","Các dự án tham gia chương trình Makathon đang giới thiệu với khách tham quan tại TECHFEST Miền Nam 2020."],
+            "13": ["./clubPics/NSKC/13","Dự án Sổ tay Arduino - Sách dạy về điện tử, lập trình và thiết kế dự án dành cho học sinh - sinh viên do thành viên câu lạc bộ biên soạn và thiết kế. Dự kiến xuất bản trong quý III 2021."]
+        }],
+        "upComing": null,
+        "picture": ["https://www.youtube.com/watch?v=VprRQNppZJI&t=2s","https://www.youtube.com/watch?v=FJ57Kh_i5gA"],
+        "hashtag": "#nksc #NKsteam"
+    },
+    "Shark":{
+        "logo": "",
+        "description": ["PTNK Shark Club là điểm hẹn của những bạn trẻ có chung niềm đam mê với lĩnh vực kinh tế nói chung, và kinh doanh, khởi nghiệp nói riêng. Lấy cảm hứng từ chương trình truyền hình Shark Tank - Thương vụ bạc tỷ, Shark Club được thành lập với sứ mệnh là một sân chơi khởi nghiệp cho các bạn học sinh. Shark Club không chỉ đem đến cho bạn cơ hội được tiếp cận với kiến thức của bộ môn Kinh tế, mà còn là nơi để bạn trau dồi kỹ năng mềm, cũng như tìm kiếm những người bạn đồng hành trên hành trình khởi nghiệp của mình."],
+        "slogan": null,
+        "socialMedia": ["https://www.facebook.com/sharkclubptnk"],
+        "spotlight": ["14/11/2020 - 17/4/2021, Shark Club đã đăng chuỗi bài đăng [SHARKCON] trên trang Facebook về nhiều lĩnh vực như marketing, logistics,... ","23/01/2021, Shark Club đã thành công tổ chức buổi tọa đàm \"SHARKCON FINANCE IN USE\" với sự tham gia của diễn giả Trần Võ Thanh Tú. Xuyên suốt buổi chia sẻ, các bạn đã học được rất nhiều kiến thức bổ ích về các mảng trong lĩnh vực kinh tế - tài chính. Từ câu chuyện khởi nghiệp của chính diễn giả Trần Võ Thanh Tú - giám đốc công ty Trang Sports, các bạn cũng rút ra được nhiều kinh nghiệm cho quá trình khởi nghiệp thực tiễn của các bạn sau này. Hơn thế nữa, các bạn đã được truyền cảm hứng để mà dám nghĩ, dám làm và biến những ý tưởng thành hiện thực."],
+        "upComing": null,
+        "picture": ["./clubPics/SHARK/1","./clubPics/SHARK/2","./clubPics/SHARK/3","./clubPics/SHARK/4","./clubPics/SHARK/5","./clubPics/SHARK/6","./clubPics/SHARK/7"],
+        "hashtag": ""
+    },
+    "Colosseum":{
+        "logo": "",
+        "description": ["The Colosseum là một câu lạc bộ tranh biện được thành lập bởi hai học sinh khóa 17-20 trường Phổ Thông Năng Khiếu- ĐHQG TPHCM vào ngày 1/6/2018. The Colosseum muốn mang đến cho các bạn học sinh trường PTNK một ‘đấu trường La Mã’ về tranh biện bằng cả tiếng Anh và tiếng Việt về các đề tài đa dạng, gây tranh cãi. Câu lạc bộ hướng đến một môi trường tranh biện lành mạnh, cởi mở, tìm kiếm những chiến binh tự tin, nhiệt huyết và chịu học hỏi. Tranh biện không chỉ là một cuộc thi cạnh tranh mà còn là kỹ năng cần thiết trong cuộc sống hằng ngày của chúng ta, tiếp thu thêm những kiến thức nền tảng về xã hội và thế giới."],
+        "slogan": null,
+        "socialMedia": ["https://www.facebook.com/thecolosseum.ptnk", "thecolosseumptnk@gmail.com"],
+        "spotlight": [{
+            "2019": "Vào năm 2019, câu lạc bộ The Colosseum đã đồng tổ chức giải tranh biện của Thành phố Hồ Chí Minh (TP HCM): HO CHI MINH DEBATE OPEN - HCMDO 2019 ",
+            "war": "The Colosseum đã tổ chức những buổi đấu tập với tinh thần học hỏi, mong muốn tiến bộ, cùng như tìm kiếm cơ hội để luyện tập và tăng tinh thần đồng đội cho những giải đấu, cuộc thi như Trường Teen 2019, Southern Vietnam Novice Debating Championship 2019",
+            "2020": "Vào năm 2020, The Colosseum đã tổ chức trại hè tranh biện Linh. Trại hè theo luật Nghị viện Anh - British Parliamentary (BP) đầu tiên ở Việt Nam 100% dàn huấn luyện viên là những tranh biện viên quốc tế đầy kinh nghiệm tại những giải đấu lớn).",
+            "reward": "Quán quân Trường Teen 2019, Á Quân VNDO 2020, Quán quân Bangladesh Debate Online"
+        }],
+        "upComing": [],
+        "picture": ["./clubPics/COLOSSEUM/1","./clubPics/COLOSSEUM/2", "./clubPics/COLOSSEUM/3", "./clubPics/COLOSSEUM/4", "./clubPics/COLOSSEUM/COLO X UNIS SDGDO 2021"],
+        "hashtag": ""
+    },
+    "TGB":{
+        "logo": "",
+        "description": [
+            "The Gifted BattleField là một dự án học thuật được ra mắt vào ngày 15/06/2021 nhằm giúp các bạn học sinh lớp 9 muốn thi vào trường chuyên cũng như học sinh những các khối khác muốn tiếp cận với nguồn tài liệu chuyên.",
+            "Các chiến binh sẽ được trang bị: Tài liệu cho các môn học, các khóa học, chuyên đề. Nguồn mở rộng kiến thức cho học sinh trong các lĩnh vực. Các bài kiểm tra, thi thử trực tuyến để tự đánh giả khả năng, mức độ hiểu biết của mình như các chiến binh được luyện tập đánh trận ở một “chiến trường” thực thụ.",
+            "Đối với môn Tin học, người tham gia còn có thể thử thách bản thân với bài kiểm tra code trực tuyến - điểm mà chưa dự án học tập online trước đây nào có."
+        ],
+        "slogan": "Conquer knowledge, show yourself",
+        "socialMedia": ["https://www.facebook.com/giftedbat.nk.1121","https://giftedbat.com/","https://oj.giftedbat.com/","https://www.linkedin.com/company/giftedbat"],
+        "spotlight": ["Tổ chức contest (Tin) cho học sinh lớp 9 có ý nguyện vào chuyên Tin (với sự tham gia của hơn 70 học sinh)"],
+        "upComing": null,
+        "picture": ["./clubPics/TBG/1. Catalog","./clubPics/TBG/2. Page","./clubPics/TBG/collage","./clubPics/TBG/giftedbat.herokuapp.com (3)","./clubPics/TBG/gioithieuoj","./clubPics/TBG/website điều hướng (1)"],
+        "hashtag": "#TheGiftedBattlefield"
+    },
+    "ILLy":{
+        "logo": "",
+        "description": ["The ILLY là một câu lạc bộ về rap của trường Phổ thông Năng Khiếu. Được thành lập từ tháng 9 năm 2020, đến nay THE ILLY đã cho ra 5 sản phẩm, tất cả đều được đầu tư vô cùng chỉnh chu về hình ảnh, âm nhạc lẫn thông điệp mang lại. \n Đến với THE ILLY, ngoài được giới thiệu về “rap” - một thể loại nhạc tuy không mới nhưng vẫn còn lạ, mà còn được tận tình hướng dẫn và góp giọng cho những sản phẩm của câu lạc bộ."],
+        "slogan": null,
+        "socialMedia": ["https://www.facebook.com/theillyminarics","https://soundcloud.com/rap-ptnk"],
+        "spotlight": ["MV ‘TET MOI’ là một sản phẩm thuộc chuỗi dự án Tết 2021 do THE ILLY kết hợp cùng The API’s Tales. Với MV này, chúng mình muốn gửi gắm đến các bạn trẻ thông điệp bùng nổ rằng hãy sống hết mình trong ‘TET MOI’, đừng ngại “nhập cuộc, sáng tạo”! Link bài hát: https://www.facebook.com/theillyminarics/videos/481182089544145"],
+        "upComing": null,
+        "picture": ["./clubPics/ILLY/TETMOI1","./clubPics/ILLY/TETMOI2","./clubPics/ILLY/THEILLY","./clubPics/ILLY/THEILLY2"],
+        "hashtag": "#music #rap"
+    },
+    "TPT":{
+        "logo": "",
+        "description": ["Tổ Phát Thanh là một trong những câu lạc bộ có “lịch sử” lâu đời nhất tại trường Phổ Thông Năng Khiếu. Ban đầu, mục đích thành lập Tổ là để điều khiển dàn loa của trường vào giờ ra chơi. Thế nhưng hiện tại tụi mình đã phát triển thêm hai mảng vô cùng nổi trội khác là “Truyền thông” (gồm tiểu ban “Nội dung” và tiểu ban “Hình ảnh”) và “Sự kiện”. Tuy nhiên, dù là thành viên của ban nào tụi mình cũng đều có một điểm chung: chạy deadline xịn hơn crush của bạn!"],
+        "slogan": null,
+        "socialMedia": ["https://www.facebook.com/tophatthanhptnk"],
+        "spotlight": [{
+            "Tach": ["Sự kiện “Tách”","“Tách” là sự kiện chào đón học sinh lớp 10 đầu năm học của Tổ Phát Thanh. Tham gia “Tách”, các bạn học sinh mới vào trường đã có dịp giải mật thư và cùng lớp mình “check-in sống ảo” tại các “địa điểm bí ẩn” trong trường, nhờ đó mà thắt chặt thêm “tình đồng đội” siêu hiệu quả."],
+            "Ngo": ["Sự kiện “Phi vụ bí ngô” ","Giải cứu Halloween cùng game offline của Tổ - “Phi vụ bí ngô”. “Phi vụ bí ngô” là một trò chơi vận động thử thách sự khéo léo của người chơi, cùng những món quà “kinh dị” siêu đáng yêu đã thu hút đông đảo sự quan tâm và tham gia của các bạn học sinh các khối lớp."],
+            "Yeu": ["Hoạt động “Mùa Yêu” mùa 1","“Mùa Yêu” là một một “dịch vụ” chuyển phát online nơi Tổ Phát Thanh hóa thân thành chú bồ câu đưa thư, giúp các bạn trao gửi những lời mật ngọt thầm kín đến người thương nhân dịp Valentine dưới các hình thức như Facebook, nhắn tin điện thoại, gọi điện, gửi email,... "],
+            "Miss": ["Cuộc thi “Miss Năng Khiếu” 2021", "“Miss Năng Khiếu” là cuộc thi thường niên do Tổ Phát Thanh trường Phổ thông Năng Khiếu tổ chức với sứ mệnh đưa đến một không gian cởi mở để các bạn học sinh tự tin thể hiện bản thân. "]
+        }],
+
+        "upComing": [{
+            "Miss": ["Cuộc thi “Miss Năng Khiếu” 2022", "Tên sự kiện: “Miss Năng Khiếu 22”","Thời gian: Năm 2022","Hình thức: Online (trên fanpage Miss Năng Khiếu) và Offline","Nơi diễn ra: Trường Phổ thông Năng Khiếu cơ sở 1 ","Mô tả sự kiện: https://www.facebook.com/missnangkhieu"],
+            "Yeu": ["Hoạt động “Mùa yêu” mùa 2 ","Tên sự kiện: Mùa yêu","Thời gian: Dịp Valentine năm 2022","Hình thức: Online (trên fanpage Tổ Phát Thanh trường Phổ Thông Năng Khiếu) và Offline","Nơi diễn ra: Trường Phổ thông Năng Khiếu cơ sở 1","Mô tả sự kiện ở mùa trước: https://bit.ly/muayeu1"]
+        }],
+        "picture": ["./clubPics/TPT/1","./clubPics/TPT/2","./clubPics/TPT/3","./clubPics/TPT/4","./clubPics/TPT/5","./clubPics/TPT/6","./clubPics/TPT/7","./clubPics/TPT/8","./clubPics/TPT/9","./clubPics/TPT/10"],
+        "hashtag": "#TPT #ToPhatTinhYeu"
+    }
+    
+}
