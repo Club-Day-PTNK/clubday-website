@@ -1,9 +1,9 @@
-import BodyCard from "../components/cards/Home";
-import Timer from "../components/Timer";
-import { bodyContents } from "../libs/home/data";
+import BodyCard from "";
+import Timer from "@components/Timer";
+import { bodyContents } from "@libs/home/data";
 
-import bodyCardStyles from "../styles/cards/Home.module.scss";
-import homeStyles from "../styles/Home.module.scss";
+import bodyCardStyles from "@styles/cards/Home.module.scss";
+import homeStyles from "@styles/Home.module.scss";
 
 import classNames from "classnames/bind";
 let cx = classNames.bind(bodyCardStyles);
