@@ -1,6 +1,6 @@
 import BodyCard from "@components/cards/Home";
 import Timer from "@components/Timer";
-import { bodyContents } from "../libs/home/data";
+import { bodyContents } from "@libs/home/data";
 
 import bodyCardStyles from "@styles/cards/Home.module.scss";
 import homeStyles from "@styles/Home.module.scss";
