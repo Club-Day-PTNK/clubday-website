@@ -3,9 +3,9 @@
     "baseUrl": "./",
     "paths": {
       "@components/*": ["components/*"],
-      "@images/*": ["public/assets/images/"],
-      "@libs/*": ["libs/"],
-      "@styles/*": ["styles/"]
+      "@images/*": ["public/assets/images/*"],
+      "@libs/*": ["libs/*"],
+      "@styles/*": ["styles/*"]
     }
   }
 }
